@@ -1,0 +1,732 @@
+[
+  {
+    "question": {
+      "en": "What is React?",
+      "ar": "ما هو رياكت؟"
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "A JavaScript library for building user interfaces",
+          "isCorrect": true
+        },
+        {
+          "text": "A full-fledged framework",
+          "isCorrect": false
+        },
+        {
+          "text": "A programming language",
+          "isCorrect": false
+        },
+        {
+          "text": "A database",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "مكتبة جافاسكريبت لبناء واجهات المستخدم",
+          "isCorrect": true
+        },
+        {
+          "text": "إطار عمل متكامل",
+          "isCorrect": false
+        },
+        {
+          "text": "لغة برمجة",
+          "isCorrect": false
+        },
+        {
+          "text": "قاعدة بيانات",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "multiple choice",
+    "hint": {
+      "en": "It is maintained by Meta (formerly Facebook).",
+      "ar": "تتم صيانتها بواسطة ميتا (فيسبوك سابقًا)."
+    },
+    "id": 1,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "JSX is a requirement to use React.",
+      "ar": "استخدام JSX إلزامي في رياكت."
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "False",
+          "isCorrect": true
+        },
+        {
+          "text": "True",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "غلط",
+          "isCorrect": true
+        },
+        {
+          "text": "صح",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "trueFalse",
+    "hint": {
+      "en": "JSX is syntactic sugar for the React.createElement() function.",
+      "ar": "JSX هو مجرد اختصار لـ React.createElement()."
+    },
+    "id": 2,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "What command is often used to create a new React app?",
+      "ar": "ما هو الأمر المستخدم غالبًا لإنشاء تطبيق رياكت جديد؟"
+    },
+    "correctAnswers": {
+      "en": ["npx create-react-app", "create-react-app"],
+      "ar": ["npx create-react-app", "create-react-app"]
+    },
+    "questionType": "text",
+    "hint": {
+      "en": "It's the officially supported way to create single-page React applications.",
+      "ar": "إنها الطريقة المدعومة رسميًا لإنشاء تطبيقات رياكت أحادية الصفحة."
+    },
+    "id": 3,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "How do you pass data from a parent component to a child component?",
+      "ar": "كيف تمرر البيانات من مكون أب إلى مكون ابن؟"
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "Using props",
+          "isCorrect": true
+        },
+        {
+          "text": "Using state",
+          "isCorrect": false
+        },
+        {
+          "text": "Using methods",
+          "isCorrect": false
+        },
+        {
+          "text": "Using HTML attributes",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "باستخدام props",
+          "isCorrect": true
+        },
+        {
+          "text": "باستخدام state",
+          "isCorrect": false
+        },
+        {
+          "text": "باستخدام methods",
+          "isCorrect": false
+        },
+        {
+          "text": "باستخدام سمات HTML",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "multiple choice",
+    "hint": {
+      "en": "It's short for 'properties'.",
+      "ar": "هي اختصار لكلمة 'properties'."
+    },
+    "id": 4,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "In React, state should be treated as immutable.",
+      "ar": "في رياكت، يجب التعامل مع الحالة (state) على أنها غير قابلة للتغيير."
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "True",
+          "isCorrect": true
+        },
+        {
+          "text": "False",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "صح",
+          "isCorrect": true
+        },
+        {
+          "text": "غلط",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "trueFalse",
+    "hint": {
+      "en": "You should never modify state directly, but use the setter function (e.g., setState).",
+      "ar": "لا يجب عليك تعديل الحالة مباشرة، بل استخدم الدالة المخصصة لتحديثها (مثل setState)."
+    },
+    "id": 5,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "Which hook is used to manage state in a functional component?",
+      "ar": "أي خطاف (hook) يستخدم لإدارة الحالة (state) في المكونات الوظيفية؟"
+    },
+    "correctAnswers": {
+      "en": ["useState"],
+      "ar": ["useState"]
+    },
+    "questionType": "text",
+    "hint": {
+      "en": "It's a hook that lets you add React state to function components.",
+      "ar": "هو خطاف يتيح لك إضافة حالة رياكت إلى المكونات الوظيفية."
+    },
+    "id": 6,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "What is the main purpose of the 'key' prop when rendering a list of elements?",
+      "ar": "ما هو الغرض الرئيسي من خاصية 'key' عند تصيير قائمة من العناصر؟"
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "To help React identify which items have changed, been added, or removed",
+          "isCorrect": true
+        },
+        {
+          "text": "To style the list items",
+          "isCorrect": false
+        },
+        {
+          "text": "To add a unique ID to the HTML element",
+          "isCorrect": false
+        },
+        {
+          "text": "To handle click events on list items",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "لمساعدة رياكت في تحديد أي العناصر تغيرت أو أُضيفت أو حُذفت",
+          "isCorrect": true
+        },
+        {
+          "text": "لتنسيق عناصر القائمة",
+          "isCorrect": false
+        },
+        {
+          "text": "لإضافة معرف فريد لعنصر HTML",
+          "isCorrect": false
+        },
+        {
+          "text": "للتعامل مع أحداث النقر على عناصر القائمة",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "multiple choice",
+    "hint": {
+      "en": "It helps with the reconciliation process.",
+      "ar": "يساعد في عملية المطابقة (reconciliation)."
+    },
+    "id": 7,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "By default, the useEffect hook runs after every render.",
+      "ar": "بشكل افتراضي، يعمل خطاف useEffect بعد كل عملية تصيير (render)."
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "True",
+          "isCorrect": true
+        },
+        {
+          "text": "False",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "صح",
+          "isCorrect": true
+        },
+        {
+          "text": "غلط",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "trueFalse",
+    "hint": {
+      "en": "You can provide a dependency array to control when it re-runs.",
+      "ar": "يمكنك توفير مصفوفة تبعيات للتحكم في وقت إعادة تشغيله."
+    },
+    "id": 8,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "What is the Virtual DOM?",
+      "ar": "ما هو الـ Virtual DOM (نموذج كائن المستند الافتراضي)؟"
+    },
+    "correctAnswers": {
+      "en": [
+        "An in-memory representation of the DOM",
+        "A copy of the real DOM kept in memory"
+      ],
+      "ar": [
+        "تمثيل للـ DOM في الذاكرة",
+        "نسخة من الـ DOM الحقيقي محفوظة في الذاكرة"
+      ]
+    },
+    "questionType": "text",
+    "hint": {
+      "en": "React uses it for performance optimization by minimizing direct DOM manipulations.",
+      "ar": "يستخدمه رياكت لتحسين الأداء عن طريق تقليل التلاعب المباشر بالـ DOM."
+    },
+    "id": 9,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "Which of these is the correct way to handle a click event in React?",
+      "ar": "أي من هذه هي الطريقة الصحيحة للتعامل مع حدث النقر في رياكت؟"
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "onClick={handleClick}",
+          "isCorrect": true
+        },
+        {
+          "text": "onclick=\"handleClick()\"",
+          "isCorrect": false
+        },
+        {
+          "text": "on-click={handleClick}",
+          "isCorrect": false
+        },
+        {
+          "text": "event-click={handleClick}",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "onClick={handleClick}",
+          "isCorrect": true
+        },
+        {
+          "text": "onclick=\"handleClick()\"",
+          "isCorrect": false
+        },
+        {
+          "text": "on-click={handleClick}",
+          "isCorrect": false
+        },
+        {
+          "text": "event-click={handleClick}",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "multiple choice",
+    "hint": {
+      "en": "Event handlers in JSX are camelCased and passed as functions.",
+      "ar": "أسماء معالجات الأحداث في JSX تستخدم صيغة سنام الجمل (camelCase) وتُمرر كدوال."
+    },
+    "id": 10,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "A React component must return a single root element.",
+      "ar": "يجب أن يُرجع مكون رياكت عنصرًا جذريًا واحدًا."
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "True",
+          "isCorrect": true
+        },
+        {
+          "text": "False",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "صح",
+          "isCorrect": true
+        },
+        {
+          "text": "غلط",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "trueFalse",
+    "hint": {
+      "en": "You can use a <React.Fragment> or the <> syntax to wrap multiple elements.",
+      "ar": "يمكنك استخدام <React.Fragment> أو صيغة <> لتغليف عناصر متعددة."
+    },
+    "id": 11,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "What is the component used to provide a value to all components below it in the tree using the Context API?",
+      "ar": "ما هو المكون المستخدم لتوفير قيمة لجميع المكونات الموجودة تحته في الشجرة باستخدام Context API؟"
+    },
+    "correctAnswers": {
+      "en": ["Provider"],
+      "ar": ["Provider"]
+    },
+    "questionType": "text",
+    "hint": {
+      "en": "You would typically use it like this: <MyContext.Provider value={...}>.",
+      "ar": "عادةً ما تستخدمه هكذا: <MyContext.Provider value={...}>."
+    },
+    "id": 12,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "What is the primary function of the React Router library?",
+      "ar": "ما هي الوظيفة الأساسية لمكتبة React Router؟"
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "Client-side routing",
+          "isCorrect": true
+        },
+        {
+          "text": "State management",
+          "isCorrect": false
+        },
+        {
+          "text": "Making API requests",
+          "isCorrect": false
+        },
+        {
+          "text": "Styling components",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "التوجيه من جانب العميل",
+          "isCorrect": true
+        },
+        {
+          "text": "إدارة الحالة",
+          "isCorrect": false
+        },
+        {
+          "text": "إجراء طلبات API",
+          "isCorrect": false
+        },
+        {
+          "text": "تنسيق المكونات",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "multiple choice",
+    "hint": {
+      "en": "It enables navigation among views of various components in a React Application without a page refresh.",
+      "ar": "تمكّن من التنقل بين عروض المكونات المختلفة في تطبيق رياكت دون إعادة تحميل الصفحة."
+    },
+    "id": 13,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "Props can be changed directly within the child component that receives them.",
+      "ar": "يمكن تغيير الـ props مباشرة داخل المكون الابن الذي يستقبلها."
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "False",
+          "isCorrect": true
+        },
+        {
+          "text": "True",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "غلط",
+          "isCorrect": true
+        },
+        {
+          "text": "صح",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "trueFalse",
+    "hint": {
+      "en": "Props are read-only to ensure a one-way data flow.",
+      "ar": "الـ props للقراءة فقط لضمان تدفق البيانات في اتجاه واحد."
+    },
+    "id": 14,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "What syntax is used to embed a JavaScript expression inside JSX?",
+      "ar": "ما هي الصيغة المستخدمة لتضمين تعبير جافاسكريبت داخل JSX؟"
+    },
+    "correctAnswers": {
+      "en": ["{}", "curly braces"],
+      "ar": ["{}", "الأقواس المعقوفة"]
+    },
+    "questionType": "text",
+    "hint": {
+      "en": "For example, to display a variable: <h1>Hello, {name}</h1>.",
+      "ar": "على سبيل المثال، لعرض متغير: <h1>Hello, {name}</h1>."
+    },
+    "id": 15,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "Who developed and maintains React?",
+      "ar": "من قام بتطوير وصيانة رياكت؟"
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "Meta (formerly Facebook)",
+          "isCorrect": true
+        },
+        {
+          "text": "Google",
+          "isCorrect": false
+        },
+        {
+          "text": "Microsoft",
+          "isCorrect": false
+        },
+        {
+          "text": "The open-source community",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "ميتا (فيسبوك سابقًا)",
+          "isCorrect": true
+        },
+        {
+          "text": "جوجل",
+          "isCorrect": false
+        },
+        {
+          "text": "مايكروسوفت",
+          "isCorrect": false
+        },
+        {
+          "text": "مجتمع المصادر المفتوحة",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "multiple choice",
+    "hint": {
+      "en": "It was first deployed on this company's news feed in 2011.",
+      "ar": "تم نشره لأول مرة على صفحة الأخبار الخاصة بهذه الشركة في عام 2011."
+    },
+    "id": 16,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "Class components are the modern, recommended way to write React components.",
+      "ar": "المكونات من نوع Class هي الطريقة الحديثة والموصى بها لكتابة مكونات رياكت."
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "False",
+          "isCorrect": true
+        },
+        {
+          "text": "True",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "غلط",
+          "isCorrect": true
+        },
+        {
+          "text": "صح",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "trueFalse",
+    "hint": {
+      "en": "Functional components with Hooks are now the standard and recommended approach.",
+      "ar": "المكونات الوظيفية مع الخطافات (Hooks) هي الآن المعيار والنهج الموصى به."
+    },
+    "id": 17,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "What special prop is used to pass children elements directly into a component's output?",
+      "ar": "ما هي الخاصية (prop) الخاصة المستخدمة لتمرير العناصر الأبناء مباشرة إلى مخرجات المكون؟"
+    },
+    "correctAnswers": {
+      "en": ["children"],
+      "ar": ["children"]
+    },
+    "questionType": "text",
+    "hint": {
+      "en": "It refers to the content between a component's opening and closing tags, like <MyComponent>Here</MyComponent>.",
+      "ar": "تشير إلى المحتوى بين وسمي الفتح والإغلاق للمكون، مثل <MyComponent>هنا</MyComponent>."
+    },
+    "id": 18,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "Which hook would you use to perform side effects, such as data fetching, in a functional component?",
+      "ar": "أي خطاف (hook) تستخدمه لتنفيذ تأثيرات جانبية، مثل جلب البيانات، في مكون وظيفي؟"
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "useEffect",
+          "isCorrect": true
+        },
+        {
+          "text": "useState",
+          "isCorrect": false
+        },
+        {
+          "text": "useContext",
+          "isCorrect": false
+        },
+        {
+          "text": "useReducer",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "useEffect",
+          "isCorrect": true
+        },
+        {
+          "text": "useState",
+          "isCorrect": false
+        },
+        {
+          "text": "useContext",
+          "isCorrect": false
+        },
+        {
+          "text": "useReducer",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "multiple choice",
+    "hint": {
+      "en": "It combines the functionality of componentDidMount, componentDidUpdate, and componentWillUnmount from class components.",
+      "ar": "يجمع بين وظائف componentDidMount و componentDidUpdate و componentWillUnmount من مكونات Class."
+    },
+    "id": 19,
+    "category": "React",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "React directly manipulates the browser's DOM for every single state update.",
+      "ar": "رياكت يتلاعب مباشرة بـ DOM المتصفح لكل تحديث للحالة."
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "False",
+          "isCorrect": true
+        },
+        {
+          "text": "True",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "غلط",
+          "isCorrect": true
+        },
+        {
+          "text": "صح",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "trueFalse",
+    "hint": {
+      "en": "It uses a Virtual DOM and a process called reconciliation to minimize direct DOM manipulations.",
+      "ar": "يستخدم DOM افتراضي وعملية تسمى المطابقة (reconciliation) لتقليل التلاعب المباشر بالـ DOM."
+    },
+    "id": 20,
+    "category": "React",
+    "isAnswered": false
+  }
+]
