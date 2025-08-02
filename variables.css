@@ -1,0 +1,89 @@
+:root {
+  /* ========== الألوان الأساسية ========== */
+  --color-primary-dark: #151515;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-purple-dark: #6B5069;
+  --color-pink: #F09FFD;
+  --color-blue: #1494F1;
+  --color-gray: #A6AAB2;
+
+  /* ========== الألوان الشفافة ========== */
+  --color-white-90: rgba(255, 255, 255, 0.9);
+  --color-white-24: rgba(255, 255, 255, 0.24);
+  --color-white-20: rgba(255, 255, 255, 0.2);
+  --color-white-12: rgba(255, 255, 255, 0.12);
+  --color-white-08: rgba(255, 255, 255, 0.08);
+  --color-white-06: rgba(255, 255, 255, 0.06);
+
+  /* ========== تدرجات الألوان ========== */
+  --gradient-primary: linear-gradient(90deg, #F09FFD 0%, #1494F1 100%);
+  --gradient-text-main: linear-gradient(90deg, #FFFFFF 43.79%, rgba(255, 255, 255, 0.2) 100%);
+  --gradient-text-highlight: linear-gradient(90deg, #F09FFD 35.52%, #1494F1 100%);
+  
+  /* تدرج شعاعي للخلفيات */
+  --gradient-radial-overlay: radial-gradient(circle at center, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%);
+  --gradient-radial-button: radial-gradient(circle at center, rgba(255, 255, 255, 0.12) 0%, rgba(0, 0, 0, 0) 100%);
+
+  /* ========== ألوان الخلفيات ========== */
+  --bg-primary: var(--color-primary-dark);
+  --bg-overlay: var(--color-white-08);
+  --bg-card: var(--color-black);
+  --bg-button-primary: var(--gradient-primary);
+  --bg-button-secondary: var(--color-white-08);
+
+  /* ========== ألوان النصوص ========== */
+  --text-primary: var(--color-white);
+  --text-secondary: var(--color-white-90);
+  --text-muted: var(--color-gray);
+  --text-gradient-main: var(--gradient-text-main);
+  --text-gradient-highlight: var(--gradient-text-highlight);
+
+  /* ========== ألوان الحدود ========== */
+  --border-primary: var(--gradient-primary);
+  --border-secondary: var(--color-purple-dark);
+  --border-overlay: var(--color-white-06);
+
+  /* ========== الظلال والتأثيرات ========== */
+  --shadow-glow-pink: 0px 8px 32px -8px rgba(189, 88, 237, 0.48);
+  --shadow-glow-blue: 0px 2px 6px 0px rgba(10, 124, 255, 0.24);
+  --shadow-card: 0px 8px 40px -20px rgba(255, 255, 255, 0.2);
+  --shadow-inner-light: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.06);
+  --shadow-inner-highlight: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.08);
+  --shadow-inner-button: inset 1px 1px 2px 0px rgba(255, 255, 255, 0.24);
+  
+  /* تأثيرات مركبة */
+  --effect-button-primary: var(--shadow-glow-pink), var(--shadow-glow-blue), 0px 1px 3px 0px rgba(10, 124, 255, 0.24), var(--shadow-inner-button);
+  --effect-card: var(--shadow-card), var(--shadow-inner-light), var(--shadow-inner-highlight);
+
+  /* ========== ألوان حالة التفاعل ========== */
+  --color-hover-pink: #FF9FFD;
+  --color-hover-blue: #0A7CFF;
+  --color-active-pink: #E089ED;
+  --color-active-blue: #0066CC;
+
+  /* ========== ألوان إضافية للتصميم ========== */
+  --accent-purple: #BD58ED;
+  --accent-cyan: #00BFFF;
+  --opacity-backdrop: 0.4;
+  
+  /* ========== قيم الشفافية المتكررة ========== */
+  --alpha-high: 0.9;
+  --alpha-medium: 0.24;
+  --alpha-low: 0.12;
+  --alpha-subtle: 0.08;
+  --alpha-minimal: 0.06;
+}
+
+/* ========== متغيرات خاصة للثيم المظلم ========== */
+[data-theme="dark"] {
+  --text-primary: var(--color-white);
+  --bg-primary: var(--color-primary-dark);
+}
+
+/* ========== متغيرات خاصة للثيم الفاتح ========== */
+[data-theme="light"] {
+  --text-primary: var(--color-primary-dark);
+  --bg-primary: var(--color-white);
+  --text-muted: #666;
+}
