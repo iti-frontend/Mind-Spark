@@ -1,60 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mind Spark - Login</title>
+    <link rel="stylesheet" href="assets/css/login.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="./assets/css/login.css">
-</head>
-
-<body>
-    <!-- head section -->
-    <section class="login__section ">
-        <div><img class="login__logo" src="/assets/images/gradient-brain-background.png" alt="" srcset="">
-            <span class="login__logo__span">Mind-Spark</span>
-        </div>
-        <div class="container one_flex d__flex justify__center align__center">
-            <!-- right section -->
-            <div class="right text__center d__flex justify__center align__center">
-
-                <h1>Welcome to DevAnswers</h1>
-                <p>Join a growing community of developers. Ask questions,<br> share knowledge, and level up your coding
-                    skills.</p>
+  <body>
+    <section class="login__section">
+      <div class="container">
+        <!-- Right Section - Welcome -->
+        <div class="right">
+          <div class="logo__container">
+            <div class="">
+              <img
+                src="assets/images/gradient-brain-background.png"
+                alt="logo image"
+                class="login__logo"
+              />
             </div>
-            <!-- left section -->
-            <div class="left one_flex d__flex justify__center align__center">
-                <div class="inner__container">
-                    <div class="login__header">
-                        <span>Login Account</span>
-                        <p class="login__p">Enter Login details to get access</p>
-                    </div>
-                    <!-- inputs -->
-                    <div class="userName">
-                        <input type="text" name="username" id="username" placeholder="Username / Email address" />
-                        <p class="error"></p>
-                    </div>
-                    <div class="password">
-                        <input type="password" name="password" id="password" placeholder="Enter Password" />
-                        <p class="error"></p>
-                    </div>
-                    <!-- forget password -->
-                    <div class="login-options">
-                        <label for="keep_login">
-                            <input type="checkbox" id="keep_login" name="keep_login" />
-                            Keep Me Logged In
-                        </label>
-                        <a href="#" class="forgot-link">Forgot Password?</a>
-                    </div>
-                    <div class="login__sign__up">
-                        <p>Don’t have an account? <a href="signUp.html"> Sign Up</a> here</p>
-                        <button class="login__btn" type="submit">Log in</button>
-                    </div>
-                </div>
-            </div>
+          </div>
+          <h1>Welcome to Mind Spark</h1>
+          <p>
+            Join a growing community of developers. Ask questions,<br />
+            share knowledge, and level up your coding skills.
+          </p>
         </div>
+
+        <!-- Left Section - Login Form -->
+        <div class="left">
+          <div class="inner__container">
+            <div class="login__header">
+              <span>Login Account</span>
+              <p class="login__p">Enter Login details to get access</p>
+            </div>
+
+            <form id="loginForm">
+              <div class="userName">
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  placeholder="Username / Email address"
+                  required
+                />
+                <p class="error" id="usernameError"></p>
+              </div>
+
+              <div class="password">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Enter Password"
+                  required
+                />
+                <p class="error" id="passwordError"></p>
+              </div>
+
+              <div class="login-options">
+                <label for="keep_login">
+                  <input type="checkbox" id="keep_login" name="keep_login" />
+                  Keep Me Logged In
+                </label>
+                <a href="#" class="forgot-link">Forgot Password?</a>
+              </div>
+
+              <div class="login__sign__up">
+                <p>Don't have an account? <a href="#"> Sign Up</a> here</p>
+                <button class="login__btn" type="submit">Log in</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
-    <script src="./assets/js/login.js"></script>
-</body>
-
+  </body>
 </html>
