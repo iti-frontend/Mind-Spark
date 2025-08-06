@@ -69,7 +69,7 @@ body {
 .left {
     background-color: rgba(255, 255, 255, 0.06);
     height: 80vh;
-    border-radius: 0px 20px 20px 0px;
+    border-radius:  20px 0px 0px 20px;
 }
 
 
@@ -96,7 +96,10 @@ body {
 }
 
 .userName>input,
-.password>input {
+.password>input,
+.email>input,
+.re-password>input
+{
     width: 400px;
     height: 50px;
     border-left: 5px solid var(--color-black);
@@ -168,7 +171,7 @@ body {
     color: var(--color-white);
     height: 80vh;
     background-color: var(--color-white-24);
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 0px 20px 20px 0px;
 }
 
 .error {
