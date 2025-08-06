@@ -1,1 +1,251 @@
 @import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    color: var(--color-white);
+}
+
+body {
+    background-color: var(--color-primary-dark);
+    background-image: url(../images/Frame\ 17.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.display-h {
+    display: flex;
+    align-items: center;
+}
+
+.display-v {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: var(--text-muted);
+    line-height: 30px;
+}
+
+/* --------------start nav---------------- */
+
+nav {
+    padding: 40px 40px 10px 40px;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-white-20);
+}
+
+.nav__left h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.nav__right {
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.nav__right button {
+    width: fit-content;
+    background-color: transparent;
+    border: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.nav__right button:hover {
+    background-color: var(--color-white-12);
+    width: fit-content;
+    padding: 10px 0 10px 15px;
+    border: 1px solid var(--color-white-24);
+    border-radius: 50px;
+}
+
+.nav__right button:hover img {
+    margin-right: 0;
+}
+
+.nav__right button:hover span {
+    right: 20px;
+}
+
+.nav__right button:hover .user {
+    background-color: var(--color-white-20);
+    padding: 10px;
+    border-radius: 40px;
+    position: relative;
+    left: -7px;
+}
+
+.nav__right button:focus {
+    outline: none;
+}
+
+
+.user {
+    gap: 40px;
+    transition: 0.7s ease-in-out;
+}
+
+.user img {
+    background-color: var(--color-white);
+    padding: 10px 11px;
+    border-radius: 50%;
+    margin-right: -60px;
+    transition: 0.7s ease-in-out;
+}
+
+.user span {
+    position: relative;
+    right: -70px;
+    transition: 0.7s ease-in-out;
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+/* --------------end nav---------------- */
+
+/* --------------start body---------------- */
+
+
+.body {
+    margin-top: 70px;
+}
+
+.body h1 {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 80px;
+    padding: 0;
+    margin: 0 0 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--color-white-20);
+    text-align: center;
+}
+
+.body h2 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.body p {
+    text-align: center;
+    max-width: 60%;
+    color: var(--text-muted);
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.body__button button {
+    padding: 15px 40px;
+    background: var(--gradient-primary);
+    border-radius: 40px;
+    color: var(--color-white);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.7s;
+    border: 0;
+}
+
+.body__button button:hover {
+    padding: 15px 60px;
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 20px #1495f1a9);
+}
+
+.categories {
+    gap: 10px;
+    margin: 70px 0 50px;
+}
+
+.categories h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+
+}
+
+.categories img {
+    position: relative;
+    bottom: 10px;
+}
+
+.underlay {
+    background: linear-gradient(90deg, #f09ffd41 0%, #1495f16b 100%);
+    padding: 8px;
+    width: 30%;
+    border: 1px solid var(--color-white-20);
+    border-radius: 30px;
+    transition: 0.7s;
+}
+
+.boxs {
+    justify-content: center;
+    gap: 20px;
+}
+
+.boxs__box {
+    background: var(--gradient-radial-button);
+    background-color: var(--color-primary-dark);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.underlay:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 20px #f09ffd81);
+}
+
+.boxs__box__header {
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.boxs__box__header h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20px;
+}
+
+.boxs__box__button {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.boxs__box__button button {
+    padding: 15px 30px;
+    background-color: var(--bg-button-secondary);
+    border: 0;
+    border-radius: 30px;
+    gap: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.boxs__box__button button:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 20px #fff);
+}
+
+.boxs__box__button i {
+    transition: 0.7s;
+}
+
+.boxs__box__button button:hover i {
+    margin-left: 20px;
+}
+
+/* --------------end body---------------- */
