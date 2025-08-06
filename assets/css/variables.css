@@ -7,6 +7,7 @@
   --color-pink: #F09FFD;
   --color-blue: #1494F1;
   --color-gray: #A6AAB2;
+  --color-bg: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
 
   /* ========== الألوان الشفافة ========== */
   --color-white-90: rgba(255, 255, 255, 0.9);
@@ -20,7 +21,7 @@
   --gradient-primary: linear-gradient(90deg, #F09FFD 0%, #1494F1 100%);
   --gradient-text-main: linear-gradient(90deg, #FFFFFF 43.79%, rgba(255, 255, 255, 0.2) 100%);
   --gradient-text-highlight: linear-gradient(90deg, #F09FFD 35.52%, #1494F1 100%);
-  
+
   /* تدرج شعاعي للخلفيات */
   --gradient-radial-overlay: radial-gradient(circle at center, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%);
   --gradient-radial-button: radial-gradient(circle at center, rgba(255, 255, 255, 0.12) 0%, rgba(0, 0, 0, 0) 100%);
@@ -51,7 +52,7 @@
   --shadow-inner-light: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.06);
   --shadow-inner-highlight: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.08);
   --shadow-inner-button: inset 1px 1px 2px 0px rgba(255, 255, 255, 0.24);
-  
+
   /* تأثيرات مركبة */
   --effect-button-primary: var(--shadow-glow-pink), var(--shadow-glow-blue), 0px 1px 3px 0px rgba(10, 124, 255, 0.24), var(--shadow-inner-button);
   --effect-card: var(--shadow-card), var(--shadow-inner-light), var(--shadow-inner-highlight);
@@ -66,7 +67,7 @@
   --accent-purple: #BD58ED;
   --accent-cyan: #00BFFF;
   --opacity-backdrop: 0.4;
-  
+
   /* ========== قيم الشفافية المتكررة ========== */
   --alpha-high: 0.9;
   --alpha-medium: 0.24;

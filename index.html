@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/head" href="assets/images/gradient-brain-background.png">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/mode.css">
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <title>Mind-spark</title>
@@ -15,9 +16,9 @@
 <body>
 
   <!-- start nav -->
+  <section class="container">
 
-  <section class="contianer">
-    <nav class="display-h">
+    <nav class="nav display-h">
       <div class="nav__left display-h">
         <img src="assets/images/gradient-brain-background.png" alt="" width="120px">
         <h2>Mind-Spark</h2>
@@ -26,20 +27,25 @@
       <div class="nav__right">
         <button>
           <div class="user display-h">
-            <img src=" assets/images/Asset 2.png" alt="" width="30px">
+            <img src="assets/images/Asset 1.png" alt="" width="30px">
             <span> Profile</span>
           </div>
         </button>
       </div>
 
+
     </nav>
-  </section>
 
-  <!-- end nav -->
+    <div class="mode">
+      <span class="slider">
+        <span class="icon-sun" id="mode-toggle-sun">🌞</span>
+        <span class="icon-moon display-n" id="mode-toggle-moon">🌙</span>
+      </span>
+    </div>
+    <!-- end nav -->
 
-  <!-- start body -->
+    <!-- start body -->
 
-  <section class="container">
     <div class="body display-v">
       <h2>unlock knowledge</h2>
       <h1>Embrace the Quest</h1>
@@ -50,11 +56,9 @@
         <button>Try Mind-Spark out!</button>
       </div>
     </div>
-  </section>
 
-  <!-- end body -->
+    <!-- end body -->
 
-  <section class="container">
     <div class="categories display-h">
       <h2>What Mind-Spark offers</h2>
       <img src="assets/images/Icon.png" alt="" width="20px">
@@ -63,8 +67,8 @@
     <div class="boxs display-h" id="cardContainer">
     </div>
   </section>
-
   <script src="assets/js/home.js"></script>
+  <script src="assets/js/dark-mode.js"></script>
 </body>
 
 </html>

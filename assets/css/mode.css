@@ -1,0 +1,35 @@
+@import url(variables.css);
+
+
+.dark-mode {
+    --color-primary-dark: #fff;
+    --color-white: #000;
+    --color-black: #fff;
+    --color-white-20: #c0c0c0;
+    --color-white-span: #fff;
+    --color-white-12: #979696;
+    --color-bg: linear-gradient(135deg, #ffffff 0%, #e2e2e2 100%);
+    --text-muted: #424242;
+    --bg-button-secondary: #ebebeb;
+}
+
+
+
+/* ------------------------button------------------------ */
+
+.mode {
+    position: fixed;
+    right: 60px;
+    bottom: 50px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.icon-sun,
+.icon-moon {
+    font-size: 27px;
+    padding: 10px;
+    border: 5px solid var(--color-blue);
+    border-radius: 50%;
+    background-color: var(--color-white-24);
+}
