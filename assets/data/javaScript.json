@@ -1,730 +1,734 @@
-[
-  {
-    "question": {
-      "en": "Which keyword is used to declare a variable in JavaScript?",
-      "ar": "أي كلمة مفتاحية تستخدم لتعريف متغير في جافاسكريبت؟"
+{
+  "image": "data:image/png;base64,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",
+  "category": "JavaScript",
+  "questions": [
+    {
+      "question": {
+        "en": "Which keyword is used to declare a variable in JavaScript?",
+        "ar": "أي كلمة مفتاحية تستخدم لتعريف متغير في جافاسكريبت؟"
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "var, let, const",
+            "isCorrect": true
+          },
+          {
+            "text": "variable",
+            "isCorrect": false
+          },
+          {
+            "text": "v",
+            "isCorrect": false
+          },
+          {
+            "text": "string",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "var, let, const",
+            "isCorrect": true
+          },
+          {
+            "text": "variable",
+            "isCorrect": false
+          },
+          {
+            "text": "v",
+            "isCorrect": false
+          },
+          {
+            "text": "string",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "multiple choice",
+      "hint": {
+        "en": "There are three ways to declare a variable, with 'let' and 'const' being the modern approach.",
+        "ar": "هناك ثلاث طرق لتعريف متغير، مع كون 'let' و 'const' هما النهج الحديث."
+      },
+      "id": 1,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "answers": {
-      "en": [
-        {
-          "text": "var, let, const",
-          "isCorrect": true
-        },
-        {
-          "text": "variable",
-          "isCorrect": false
-        },
-        {
-          "text": "v",
-          "isCorrect": false
-        },
-        {
-          "text": "string",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "var, let, const",
-          "isCorrect": true
-        },
-        {
-          "text": "variable",
-          "isCorrect": false
-        },
-        {
-          "text": "v",
-          "isCorrect": false
-        },
-        {
-          "text": "string",
-          "isCorrect": false
-        }
-      ]
+    {
+      "question": {
+        "en": "JavaScript is a statically-typed language.",
+        "ar": "جافاسكريبت هي لغة ذات أنواع ثابتة."
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "False",
+            "isCorrect": true
+          },
+          {
+            "text": "True",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "غلط",
+            "isCorrect": true
+          },
+          {
+            "text": "صح",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "trueFalse",
+      "hint": {
+        "en": "It is a dynamically-typed language, meaning you don't have to specify the type of a variable.",
+        "ar": "إنها لغة ذات أنواع ديناميكية، مما يعني أنك لست مضطرًا لتحديد نوع المتغير."
+      },
+      "id": 2,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "questionType": "multiple choice",
-    "hint": {
-      "en": "There are three ways to declare a variable, with 'let' and 'const' being the modern approach.",
-      "ar": "هناك ثلاث طرق لتعريف متغير، مع كون 'let' و 'const' هما النهج الحديث."
+    {
+      "question": {
+        "en": "What is the result of '2' + 2 in JavaScript?",
+        "ar": "ما هي نتيجة '2' + 2 في جافاسكريبت؟"
+      },
+      "correctAnswers": {
+        "en": ["22", "'22'"],
+        "ar": ["22", "'22'"]
+      },
+      "questionType": "text",
+      "hint": {
+        "en": "JavaScript performs type coercion. The + operator concatenates strings.",
+        "ar": "تقوم جافاسكريبت بإجبار الأنواع. يقوم المعامل + بدمج السلاسل النصية."
+      },
+      "id": 3,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "id": 1,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "JavaScript is a statically-typed language.",
-      "ar": "جافاسكريبت هي لغة ذات أنواع ثابتة."
+    {
+      "question": {
+        "en": "How do you write a single-line comment in JavaScript?",
+        "ar": "كيف تكتب تعليقًا من سطر واحد في جافاسكريبت؟"
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "// This is a comment",
+            "isCorrect": true
+          },
+          {
+            "text": "<!-- This is a comment -->",
+            "isCorrect": false
+          },
+          {
+            "text": "/* This is a comment */",
+            "isCorrect": false
+          },
+          {
+            "text": "# This is a comment",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "// This is a comment",
+            "isCorrect": true
+          },
+          {
+            "text": "<!-- This is a comment -->",
+            "isCorrect": false
+          },
+          {
+            "text": "/* This is a comment */",
+            "isCorrect": false
+          },
+          {
+            "text": "# This is a comment",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "multiple choice",
+      "hint": {
+        "en": "It uses two forward slashes.",
+        "ar": "تستخدم شرطتين مائلتين للأمام."
+      },
+      "id": 4,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "answers": {
-      "en": [
-        {
-          "text": "False",
-          "isCorrect": true
-        },
-        {
-          "text": "True",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "غلط",
-          "isCorrect": true
-        },
-        {
-          "text": "صح",
-          "isCorrect": false
-        }
-      ]
+    {
+      "question": {
+        "en": "The '===' operator checks for both value and type equality.",
+        "ar": "المعامل '===' يتحقق من المساواة في القيمة والنوع معًا."
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "صح",
+            "isCorrect": true
+          },
+          {
+            "text": "غلط",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "trueFalse",
+      "hint": {
+        "en": "This is known as strict equality, while '==' is loose equality.",
+        "ar": "تُعرف هذه بالمساواة الصارمة، بينما '==' هي المساواة غير الصارمة."
+      },
+      "id": 5,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "questionType": "trueFalse",
-    "hint": {
-      "en": "It is a dynamically-typed language, meaning you don't have to specify the type of a variable.",
-      "ar": "إنها لغة ذات أنواع ديناميكية، مما يعني أنك لست مضطرًا لتحديد نوع المتغير."
+    {
+      "question": {
+        "en": "Which built-in method returns the length of a string?",
+        "ar": "أي دالة مدمجة تُرجع طول سلسلة نصية؟"
+      },
+      "correctAnswers": {
+        "en": ["length"],
+        "ar": ["length"]
+      },
+      "questionType": "text",
+      "hint": {
+        "en": "It's a property, not a method, so no parentheses are needed. e.g., 'hello'.length",
+        "ar": "إنها خاصية وليست دالة، لذلك لا حاجة للأقواس. مثال: 'hello'.length"
+      },
+      "id": 6,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "id": 2,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "What is the result of '2' + 2 in JavaScript?",
-      "ar": "ما هي نتيجة '2' + 2 في جافاسكريبت؟"
+    {
+      "question": {
+        "en": "What does DOM stand for?",
+        "ar": "ماذا يرمز DOM؟"
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "Document Object Model",
+            "isCorrect": true
+          },
+          {
+            "text": "Data Object Model",
+            "isCorrect": false
+          },
+          {
+            "text": "Document Oriented-Markup",
+            "isCorrect": false
+          },
+          {
+            "text": "Digital Optical Module",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "نموذج كائن المستند",
+            "isCorrect": true
+          },
+          {
+            "text": "نموذج كائن البيانات",
+            "isCorrect": false
+          },
+          {
+            "text": "ترميز موجه للمستند",
+            "isCorrect": false
+          },
+          {
+            "text": "وحدة بصرية رقمية",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "multiple choice",
+      "hint": {
+        "en": "It's the programming interface for web documents.",
+        "ar": "إنها واجهة البرمجة لمستندات الويب."
+      },
+      "id": 7,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "correctAnswers": {
-      "en": ["22", "'22'"],
-      "ar": ["22", "'22'"]
+    {
+      "question": {
+        "en": "An array in JavaScript can hold values of different data types.",
+        "ar": "يمكن للمصفوفة في جافاسكريبت أن تحتوي على قيم من أنواع بيانات مختلفة."
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "صح",
+            "isCorrect": true
+          },
+          {
+            "text": "غلط",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "trueFalse",
+      "hint": {
+        "en": "For example, [1, 'hello', true] is a valid array.",
+        "ar": "على سبيل المثال، [1, 'hello', true] هي مصفوفة صالحة."
+      },
+      "id": 8,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "questionType": "text",
-    "hint": {
-      "en": "JavaScript performs type coercion. The + operator concatenates strings.",
-      "ar": "تقوم جافاسكريبت بإجبار الأنواع. يقوم المعامل + بدمج السلاسل النصية."
+    {
+      "question": {
+        "en": "What keyword is used to define a function?",
+        "ar": "ما هي الكلمة المفتاحية المستخدمة لتعريف دالة؟"
+      },
+      "correctAnswers": {
+        "en": ["function"],
+        "ar": ["function"]
+      },
+      "questionType": "text",
+      "hint": {
+        "en": "It's the same word as what you are defining.",
+        "ar": "إنها نفس الكلمة التي تقوم بتعريفها."
+      },
+      "id": 9,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "id": 3,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "How do you write a single-line comment in JavaScript?",
-      "ar": "كيف تكتب تعليقًا من سطر واحد في جافاسكريبت؟"
+    {
+      "question": {
+        "en": "Which of these is the correct syntax for an arrow function?",
+        "ar": "أي من هذه هي الصيغة الصحيحة لدالة السهم؟"
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "() => {}",
+            "isCorrect": true
+          },
+          {
+            "text": "function() => {}",
+            "isCorrect": false
+          },
+          {
+            "text": "=> () {}",
+            "isCorrect": false
+          },
+          {
+            "text": "() -> {}",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "() => {}",
+            "isCorrect": true
+          },
+          {
+            "text": "function() => {}",
+            "isCorrect": false
+          },
+          {
+            "text": "=> () {}",
+            "isCorrect": false
+          },
+          {
+            "text": "() -> {}",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "multiple choice",
+      "hint": {
+        "en": "It provides a more concise syntax for writing function expressions.",
+        "ar": "توفر صيغة أكثر إيجازًا لكتابة تعبيرات الدوال."
+      },
+      "id": 10,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "answers": {
-      "en": [
-        {
-          "text": "// This is a comment",
-          "isCorrect": true
-        },
-        {
-          "text": "<!-- This is a comment -->",
-          "isCorrect": false
-        },
-        {
-          "text": "/* This is a comment */",
-          "isCorrect": false
-        },
-        {
-          "text": "# This is a comment",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "// This is a comment",
-          "isCorrect": true
-        },
-        {
-          "text": "<!-- This is a comment -->",
-          "isCorrect": false
-        },
-        {
-          "text": "/* This is a comment */",
-          "isCorrect": false
-        },
-        {
-          "text": "# This is a comment",
-          "isCorrect": false
-        }
-      ]
+    {
+      "question": {
+        "en": "'null' is an object in JavaScript.",
+        "ar": "'null' هو كائن (object) في جافاسكريبت."
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "صح",
+            "isCorrect": true
+          },
+          {
+            "text": "غلط",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "trueFalse",
+      "hint": {
+        "en": "This is a long-standing bug in JavaScript. typeof null returns 'object'.",
+        "ar": "هذا خطأ قديم في جافاسكريبت. typeof null يُرجع 'object'."
+      },
+      "id": 11,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "questionType": "multiple choice",
-    "hint": {
-      "en": "It uses two forward slashes.",
-      "ar": "تستخدم شرطتين مائلتين للأمام."
+    {
+      "question": {
+        "en": "What method is used to select an HTML element by its ID?",
+        "ar": "ما هي الدالة المستخدمة لاختيار عنصر HTML بواسطة معرفه (ID)؟"
+      },
+      "correctAnswers": {
+        "en": ["getElementById"],
+        "ar": ["getElementById"]
+      },
+      "questionType": "text",
+      "hint": {
+        "en": "It's a method on the 'document' object. The name is very descriptive.",
+        "ar": "إنها دالة على الكائن 'document'. الاسم وصفي للغاية."
+      },
+      "id": 12,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "id": 4,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "The '===' operator checks for both value and type equality.",
-      "ar": "المعامل '===' يتحقق من المساواة في القيمة والنوع معًا."
+    {
+      "question": {
+        "en": "How do you create an object in JavaScript?",
+        "ar": "كيف تنشئ كائنًا (object) في جافاسكريبت؟"
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "let obj = {};",
+            "isCorrect": true
+          },
+          {
+            "text": "let obj = [];",
+            "isCorrect": false
+          },
+          {
+            "text": "let obj = ();",
+            "isCorrect": false
+          },
+          {
+            "text": "object obj = {};",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "let obj = {};",
+            "isCorrect": true
+          },
+          {
+            "text": "let obj = [];",
+            "isCorrect": false
+          },
+          {
+            "text": "let obj = ();",
+            "isCorrect": false
+          },
+          {
+            "text": "object obj = {};",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "multiple choice",
+      "hint": {
+        "en": "It uses curly braces for object literal notation.",
+        "ar": "يستخدم الأقواس المعقوفة لترميز الكائن الحرفي."
+      },
+      "id": 13,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "answers": {
-      "en": [
-        {
-          "text": "True",
-          "isCorrect": true
-        },
-        {
-          "text": "False",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "صح",
-          "isCorrect": true
-        },
-        {
-          "text": "غلط",
-          "isCorrect": false
-        }
-      ]
+    {
+      "question": {
+        "en": "JSON stands for JavaScript Object Notation.",
+        "ar": "JSON ترمز إلى JavaScript Object Notation."
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "صح",
+            "isCorrect": true
+          },
+          {
+            "text": "غلط",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "trueFalse",
+      "hint": {
+        "en": "Its syntax is derived from JavaScript object literal syntax.",
+        "ar": "صيغتها مشتقة من صيغة الكائن الحرفي في جافاسكريبت."
+      },
+      "id": 14,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "questionType": "trueFalse",
-    "hint": {
-      "en": "This is known as strict equality, while '==' is loose equality.",
-      "ar": "تُعرف هذه بالمساواة الصارمة، بينما '==' هي المساواة غير الصارمة."
+    {
+      "question": {
+        "en": "Which operator is used for exponentiation?",
+        "ar": "أي معامل يستخدم للرفع إلى قوة (الأس)؟"
+      },
+      "correctAnswers": {
+        "en": ["**"],
+        "ar": ["**"]
+      },
+      "questionType": "text",
+      "hint": {
+        "en": "It was introduced in ES2016 (ES7). For example, 2 ** 3 is 8.",
+        "ar": "تم تقديمه في ES2016 (ES7). على سبيل المثال، 2 ** 3 يساوي 8."
+      },
+      "id": 15,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "id": 5,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "Which built-in method returns the length of a string?",
-      "ar": "أي دالة مدمجة تُرجع طول سلسلة نصية؟"
+    {
+      "question": {
+        "en": "What method is used to handle asynchronous operations in a modern, cleaner way than callbacks?",
+        "ar": "ما هي الطريقة المستخدمة للتعامل مع العمليات غير المتزامنة بطريقة حديثة وأنظف من الـ callbacks؟"
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "Promises",
+            "isCorrect": true
+          },
+          {
+            "text": "Loops",
+            "isCorrect": false
+          },
+          {
+            "text": "Events",
+            "isCorrect": false
+          },
+          {
+            "text": "Variables",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "Promises (الوعود)",
+            "isCorrect": true
+          },
+          {
+            "text": "الحلقات التكرارية",
+            "isCorrect": false
+          },
+          {
+            "text": "الأحداث",
+            "isCorrect": false
+          },
+          {
+            "text": "المتغيرات",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "multiple choice",
+      "hint": {
+        "en": "It represents the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+        "ar": "يمثل الإكمال النهائي (أو الفشل) لعملية غير متزامنة وقيمتها الناتجة."
+      },
+      "id": 16,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "correctAnswers": {
-      "en": ["length"],
-      "ar": ["length"]
+    {
+      "question": {
+        "en": "'let' and 'const' are block-scoped.",
+        "ar": "'let' و 'const' لهما نطاق كتلة (block-scoped)."
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "صح",
+            "isCorrect": true
+          },
+          {
+            "text": "غلط",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "trueFalse",
+      "hint": {
+        "en": "This means they are only accessible within the curly braces {} they are defined in, unlike 'var'.",
+        "ar": "هذا يعني أنه لا يمكن الوصول إليها إلا داخل الأقواس المعقوفة {} التي تم تعريفها فيها، على عكس 'var'."
+      },
+      "id": 17,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "questionType": "text",
-    "hint": {
-      "en": "It's a property, not a method, so no parentheses are needed. e.g., 'hello'.length",
-      "ar": "إنها خاصية وليست دالة، لذلك لا حاجة للأقواس. مثال: 'hello'.length"
+    {
+      "question": {
+        "en": "What does the 'this' keyword refer to in a regular function?",
+        "ar": "إلى ماذا تشير الكلمة المفتاحية 'this' في دالة عادية؟"
+      },
+      "correctAnswers": {
+        "en": [
+          "The global object",
+          "window",
+          "The object that called the function"
+        ],
+        "ar": ["الكائن العام", "window", "الكائن الذي استدعى الدالة"]
+      },
+      "questionType": "text",
+      "hint": {
+        "en": "Its value depends on how the function is called. In the global context, it's the window object.",
+        "ar": "تعتمد قيمته على كيفية استدعاء الدالة. في السياق العام، يكون هو كائن window."
+      },
+      "id": 18,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "id": 6,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "What does DOM stand for?",
-      "ar": "ماذا يرمز DOM؟"
+    {
+      "question": {
+        "en": "Which method converts a JSON string to a JavaScript object?",
+        "ar": "أي دالة تحول سلسلة JSON إلى كائن جافاسكريبت؟"
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "JSON.parse()",
+            "isCorrect": true
+          },
+          {
+            "text": "JSON.stringify()",
+            "isCorrect": false
+          },
+          {
+            "text": "JSON.toObject()",
+            "isCorrect": false
+          },
+          {
+            "text": "JSON.convert()",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "JSON.parse()",
+            "isCorrect": true
+          },
+          {
+            "text": "JSON.stringify()",
+            "isCorrect": false
+          },
+          {
+            "text": "JSON.toObject()",
+            "isCorrect": false
+          },
+          {
+            "text": "JSON.convert()",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "multiple choice",
+      "hint": {
+        "en": "The opposite method is JSON.stringify().",
+        "ar": "الدالة المعاكسة هي JSON.stringify()."
+      },
+      "id": 19,
+      "category": "JavaScript",
+      "isAnswered": false
     },
-    "answers": {
-      "en": [
-        {
-          "text": "Document Object Model",
-          "isCorrect": true
-        },
-        {
-          "text": "Data Object Model",
-          "isCorrect": false
-        },
-        {
-          "text": "Document Oriented-Markup",
-          "isCorrect": false
-        },
-        {
-          "text": "Digital Optical Module",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "نموذج كائن المستند",
-          "isCorrect": true
-        },
-        {
-          "text": "نموذج كائن البيانات",
-          "isCorrect": false
-        },
-        {
-          "text": "ترميز موجه للمستند",
-          "isCorrect": false
-        },
-        {
-          "text": "وحدة بصرية رقمية",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "multiple choice",
-    "hint": {
-      "en": "It's the programming interface for web documents.",
-      "ar": "إنها واجهة البرمجة لمستندات الويب."
-    },
-    "id": 7,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "An array in JavaScript can hold values of different data types.",
-      "ar": "يمكن للمصفوفة في جافاسكريبت أن تحتوي على قيم من أنواع بيانات مختلفة."
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "True",
-          "isCorrect": true
-        },
-        {
-          "text": "False",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "صح",
-          "isCorrect": true
-        },
-        {
-          "text": "غلط",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "trueFalse",
-    "hint": {
-      "en": "For example, [1, 'hello', true] is a valid array.",
-      "ar": "على سبيل المثال، [1, 'hello', true] هي مصفوفة صالحة."
-    },
-    "id": 8,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "What keyword is used to define a function?",
-      "ar": "ما هي الكلمة المفتاحية المستخدمة لتعريف دالة؟"
-    },
-    "correctAnswers": {
-      "en": ["function"],
-      "ar": ["function"]
-    },
-    "questionType": "text",
-    "hint": {
-      "en": "It's the same word as what you are defining.",
-      "ar": "إنها نفس الكلمة التي تقوم بتعريفها."
-    },
-    "id": 9,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "Which of these is the correct syntax for an arrow function?",
-      "ar": "أي من هذه هي الصيغة الصحيحة لدالة السهم؟"
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "() => {}",
-          "isCorrect": true
-        },
-        {
-          "text": "function() => {}",
-          "isCorrect": false
-        },
-        {
-          "text": "=> () {}",
-          "isCorrect": false
-        },
-        {
-          "text": "() -> {}",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "() => {}",
-          "isCorrect": true
-        },
-        {
-          "text": "function() => {}",
-          "isCorrect": false
-        },
-        {
-          "text": "=> () {}",
-          "isCorrect": false
-        },
-        {
-          "text": "() -> {}",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "multiple choice",
-    "hint": {
-      "en": "It provides a more concise syntax for writing function expressions.",
-      "ar": "توفر صيغة أكثر إيجازًا لكتابة تعبيرات الدوال."
-    },
-    "id": 10,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "'null' is an object in JavaScript.",
-      "ar": "'null' هو كائن (object) في جافاسكريبت."
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "True",
-          "isCorrect": true
-        },
-        {
-          "text": "False",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "صح",
-          "isCorrect": true
-        },
-        {
-          "text": "غلط",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "trueFalse",
-    "hint": {
-      "en": "This is a long-standing bug in JavaScript. typeof null returns 'object'.",
-      "ar": "هذا خطأ قديم في جافاسكريبت. typeof null يُرجع 'object'."
-    },
-    "id": 11,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "What method is used to select an HTML element by its ID?",
-      "ar": "ما هي الدالة المستخدمة لاختيار عنصر HTML بواسطة معرفه (ID)؟"
-    },
-    "correctAnswers": {
-      "en": ["getElementById"],
-      "ar": ["getElementById"]
-    },
-    "questionType": "text",
-    "hint": {
-      "en": "It's a method on the 'document' object. The name is very descriptive.",
-      "ar": "إنها دالة على الكائن 'document'. الاسم وصفي للغاية."
-    },
-    "id": 12,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "How do you create an object in JavaScript?",
-      "ar": "كيف تنشئ كائنًا (object) في جافاسكريبت؟"
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "let obj = {};",
-          "isCorrect": true
-        },
-        {
-          "text": "let obj = [];",
-          "isCorrect": false
-        },
-        {
-          "text": "let obj = ();",
-          "isCorrect": false
-        },
-        {
-          "text": "object obj = {};",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "let obj = {};",
-          "isCorrect": true
-        },
-        {
-          "text": "let obj = [];",
-          "isCorrect": false
-        },
-        {
-          "text": "let obj = ();",
-          "isCorrect": false
-        },
-        {
-          "text": "object obj = {};",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "multiple choice",
-    "hint": {
-      "en": "It uses curly braces for object literal notation.",
-      "ar": "يستخدم الأقواس المعقوفة لترميز الكائن الحرفي."
-    },
-    "id": 13,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "JSON stands for JavaScript Object Notation.",
-      "ar": "JSON ترمز إلى JavaScript Object Notation."
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "True",
-          "isCorrect": true
-        },
-        {
-          "text": "False",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "صح",
-          "isCorrect": true
-        },
-        {
-          "text": "غلط",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "trueFalse",
-    "hint": {
-      "en": "Its syntax is derived from JavaScript object literal syntax.",
-      "ar": "صيغتها مشتقة من صيغة الكائن الحرفي في جافاسكريبت."
-    },
-    "id": 14,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "Which operator is used for exponentiation?",
-      "ar": "أي معامل يستخدم للرفع إلى قوة (الأس)؟"
-    },
-    "correctAnswers": {
-      "en": ["**"],
-      "ar": ["**"]
-    },
-    "questionType": "text",
-    "hint": {
-      "en": "It was introduced in ES2016 (ES7). For example, 2 ** 3 is 8.",
-      "ar": "تم تقديمه في ES2016 (ES7). على سبيل المثال، 2 ** 3 يساوي 8."
-    },
-    "id": 15,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "What method is used to handle asynchronous operations in a modern, cleaner way than callbacks?",
-      "ar": "ما هي الطريقة المستخدمة للتعامل مع العمليات غير المتزامنة بطريقة حديثة وأنظف من الـ callbacks؟"
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "Promises",
-          "isCorrect": true
-        },
-        {
-          "text": "Loops",
-          "isCorrect": false
-        },
-        {
-          "text": "Events",
-          "isCorrect": false
-        },
-        {
-          "text": "Variables",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "Promises (الوعود)",
-          "isCorrect": true
-        },
-        {
-          "text": "الحلقات التكرارية",
-          "isCorrect": false
-        },
-        {
-          "text": "الأحداث",
-          "isCorrect": false
-        },
-        {
-          "text": "المتغيرات",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "multiple choice",
-    "hint": {
-      "en": "It represents the eventual completion (or failure) of an asynchronous operation and its resulting value.",
-      "ar": "يمثل الإكمال النهائي (أو الفشل) لعملية غير متزامنة وقيمتها الناتجة."
-    },
-    "id": 16,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "'let' and 'const' are block-scoped.",
-      "ar": "'let' و 'const' لهما نطاق كتلة (block-scoped)."
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "True",
-          "isCorrect": true
-        },
-        {
-          "text": "False",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "صح",
-          "isCorrect": true
-        },
-        {
-          "text": "غلط",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "trueFalse",
-    "hint": {
-      "en": "This means they are only accessible within the curly braces {} they are defined in, unlike 'var'.",
-      "ar": "هذا يعني أنه لا يمكن الوصول إليها إلا داخل الأقواس المعقوفة {} التي تم تعريفها فيها، على عكس 'var'."
-    },
-    "id": 17,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "What does the 'this' keyword refer to in a regular function?",
-      "ar": "إلى ماذا تشير الكلمة المفتاحية 'this' في دالة عادية؟"
-    },
-    "correctAnswers": {
-      "en": [
-        "The global object",
-        "window",
-        "The object that called the function"
-      ],
-      "ar": ["الكائن العام", "window", "الكائن الذي استدعى الدالة"]
-    },
-    "questionType": "text",
-    "hint": {
-      "en": "Its value depends on how the function is called. In the global context, it's the window object.",
-      "ar": "تعتمد قيمته على كيفية استدعاء الدالة. في السياق العام، يكون هو كائن window."
-    },
-    "id": 18,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "Which method converts a JSON string to a JavaScript object?",
-      "ar": "أي دالة تحول سلسلة JSON إلى كائن جافاسكريبت؟"
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "JSON.parse()",
-          "isCorrect": true
-        },
-        {
-          "text": "JSON.stringify()",
-          "isCorrect": false
-        },
-        {
-          "text": "JSON.toObject()",
-          "isCorrect": false
-        },
-        {
-          "text": "JSON.convert()",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "JSON.parse()",
-          "isCorrect": true
-        },
-        {
-          "text": "JSON.stringify()",
-          "isCorrect": false
-        },
-        {
-          "text": "JSON.toObject()",
-          "isCorrect": false
-        },
-        {
-          "text": "JSON.convert()",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "multiple choice",
-    "hint": {
-      "en": "The opposite method is JSON.stringify().",
-      "ar": "الدالة المعاكسة هي JSON.stringify()."
-    },
-    "id": 19,
-    "category": "JavaScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "NaN stands for Not a Number and its type is 'number'.",
-      "ar": "NaN ترمز إلى 'ليس رقمًا' ونوعها هو 'number'."
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "True",
-          "isCorrect": true
-        },
-        {
-          "text": "False",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "صح",
-          "isCorrect": true
-        },
-        {
-          "text": "غلط",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "trueFalse",
-    "hint": {
-      "en": "It's a quirky part of JavaScript. typeof NaN returns 'number'.",
-      "ar": "إنه جزء غريب من جافاسكريبت. typeof NaN يُرجع 'number'."
-    },
-    "id": 20,
-    "category": "JavaScript",
-    "isAnswered": false
-  }
-]
+    {
+      "question": {
+        "en": "NaN stands for Not a Number and its type is 'number'.",
+        "ar": "NaN ترمز إلى 'ليس رقمًا' ونوعها هو 'number'."
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "صح",
+            "isCorrect": true
+          },
+          {
+            "text": "غلط",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "trueFalse",
+      "hint": {
+        "en": "It's a quirky part of JavaScript. typeof NaN returns 'number'.",
+        "ar": "إنه جزء غريب من جافاسكريبت. typeof NaN يُرجع 'number'."
+      },
+      "id": 20,
+      "category": "JavaScript",
+      "isAnswered": false
+    }
+  ]
+}

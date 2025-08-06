@@ -1,726 +1,730 @@
-[
-  {
-    "question": {
-      "en": "TypeScript is a superset of JavaScript.",
-      "ar": "تايب سكريبت هي مجموعة فرعية من جافاسكريبت."
+{
+  "image": "data:image/png;base64,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",
+  "category": "TypeScript",
+  "questions": [
+    {
+      "question": {
+        "en": "TypeScript is a superset of JavaScript.",
+        "ar": "تايب سكريبت هي مجموعة فرعية من جافاسكريبت."
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "صح",
+            "isCorrect": true
+          },
+          {
+            "text": "غلط",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "trueFalse",
+      "hint": {
+        "en": "TypeScript adds type safety to JavaScript.",
+        "ar": "تايب سكريبت تضيف أمان الأنواع إلى جافاسكريبت."
+      },
+      "id": 1,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "answers": {
-      "en": [
-        {
-          "text": "True",
-          "isCorrect": true
-        },
-        {
-          "text": "False",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "صح",
-          "isCorrect": true
-        },
-        {
-          "text": "غلط",
-          "isCorrect": false
-        }
-      ]
+    {
+      "question": {
+        "en": "What file extension is used for TypeScript files?",
+        "ar": "ما هو امتداد الملف المستخدم لملفات تايب سكريبت؟"
+      },
+      "correctAnswers": {
+        "en": [".ts", "ts"],
+        "ar": [".ts", "ts"]
+      },
+      "questionType": "text",
+      "hint": {
+        "en": "It's similar to .js but with a 't'.",
+        "ar": "يشبه .js لكن مع حرف 't'."
+      },
+      "id": 2,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "questionType": "trueFalse",
-    "hint": {
-      "en": "TypeScript adds type safety to JavaScript.",
-      "ar": "تايب سكريبت تضيف أمان الأنواع إلى جافاسكريبت."
+    {
+      "question": {
+        "en": "What is TypeScript?",
+        "ar": "ما هي تايب سكريبت؟"
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "A programming language developed by Microsoft",
+            "isCorrect": true
+          },
+          {
+            "text": "A JavaScript library",
+            "isCorrect": false
+          },
+          {
+            "text": "A CSS framework",
+            "isCorrect": false
+          },
+          {
+            "text": "A database system",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "لغة برمجة طورتها مايكروسوفت",
+            "isCorrect": true
+          },
+          {
+            "text": "مكتبة جافاسكريبت",
+            "isCorrect": false
+          },
+          {
+            "text": "إطار عمل CSS",
+            "isCorrect": false
+          },
+          {
+            "text": "نظام قاعدة بيانات",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "multiple choice",
+      "hint": {
+        "en": "It adds static typing to JavaScript.",
+        "ar": "تضيف الكتابة الثابتة إلى جافاسكريبت."
+      },
+      "id": 3,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "id": 1,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "What file extension is used for TypeScript files?",
-      "ar": "ما هو امتداد الملف المستخدم لملفات تايب سكريبت؟"
+    {
+      "question": {
+        "en": "Which command compiles TypeScript to JavaScript?",
+        "ar": "أي أمر يترجم تايب سكريبت إلى جافاسكريبت؟"
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "tsc",
+            "isCorrect": true
+          },
+          {
+            "text": "npm",
+            "isCorrect": false
+          },
+          {
+            "text": "node",
+            "isCorrect": false
+          },
+          {
+            "text": "ts-compile",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "tsc",
+            "isCorrect": true
+          },
+          {
+            "text": "npm",
+            "isCorrect": false
+          },
+          {
+            "text": "node",
+            "isCorrect": false
+          },
+          {
+            "text": "ts-compile",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "multiple choice",
+      "hint": {
+        "en": "It stands for TypeScript Compiler.",
+        "ar": "يرمز إلى مترجم تايب سكريبت."
+      },
+      "id": 4,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "correctAnswers": {
-      "en": [".ts", "ts"],
-      "ar": [".ts", "ts"]
+    {
+      "question": {
+        "en": "TypeScript requires compilation before running.",
+        "ar": "تايب سكريبت تتطلب ترجمة قبل التشغيل."
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "صح",
+            "isCorrect": true
+          },
+          {
+            "text": "غلط",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "trueFalse",
+      "hint": {
+        "en": "It compiles to JavaScript first.",
+        "ar": "تترجم إلى جافاسكريبت أولاً."
+      },
+      "id": 5,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "questionType": "text",
-    "hint": {
-      "en": "It's similar to .js but with a 't'.",
-      "ar": "يشبه .js لكن مع حرف 't'."
+    {
+      "question": {
+        "en": "What symbol is used to define types in TypeScript?",
+        "ar": "ما الرمز المستخدم لتعريف الأنواع في تايب سكريبت؟"
+      },
+      "correctAnswers": {
+        "en": [":", "colon"],
+        "ar": [":", "نقطتان"]
+      },
+      "questionType": "text",
+      "hint": {
+        "en": "It comes after the variable name.",
+        "ar": "يأتي بعد اسم المتغير."
+      },
+      "id": 6,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "id": 2,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "What is TypeScript?",
-      "ar": "ما هي تايب سكريبت؟"
+    {
+      "question": {
+        "en": "Which of these is a valid TypeScript interface?",
+        "ar": "أي من هذه واجهة تايب سكريبت صالحة؟"
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "interface User { name: string; }",
+            "isCorrect": true
+          },
+          {
+            "text": "class User { name: string; }",
+            "isCorrect": false
+          },
+          {
+            "text": "type User = string",
+            "isCorrect": false
+          },
+          {
+            "text": "function User() {}",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "interface User { name: string; }",
+            "isCorrect": true
+          },
+          {
+            "text": "class User { name: string; }",
+            "isCorrect": false
+          },
+          {
+            "text": "type User = string",
+            "isCorrect": false
+          },
+          {
+            "text": "function User() {}",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "multiple choice",
+      "hint": {
+        "en": "Interfaces define object structure.",
+        "ar": "الواجهات تحدد بنية الكائن."
+      },
+      "id": 7,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "answers": {
-      "en": [
-        {
-          "text": "A programming language developed by Microsoft",
-          "isCorrect": true
-        },
-        {
-          "text": "A JavaScript library",
-          "isCorrect": false
-        },
-        {
-          "text": "A CSS framework",
-          "isCorrect": false
-        },
-        {
-          "text": "A database system",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "لغة برمجة طورتها مايكروسوفت",
-          "isCorrect": true
-        },
-        {
-          "text": "مكتبة جافاسكريبت",
-          "isCorrect": false
-        },
-        {
-          "text": "إطار عمل CSS",
-          "isCorrect": false
-        },
-        {
-          "text": "نظام قاعدة بيانات",
-          "isCorrect": false
-        }
-      ]
+    {
+      "question": {
+        "en": "TypeScript supports optional properties.",
+        "ar": "تايب سكريبت تدعم الخصائص الاختيارية."
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "صح",
+            "isCorrect": true
+          },
+          {
+            "text": "غلط",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "trueFalse",
+      "hint": {
+        "en": "Use the ? symbol for optional properties.",
+        "ar": "استخدم رمز ? للخصائص الاختيارية."
+      },
+      "id": 8,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "questionType": "multiple choice",
-    "hint": {
-      "en": "It adds static typing to JavaScript.",
-      "ar": "تضيف الكتابة الثابتة إلى جافاسكريبت."
+    {
+      "question": {
+        "en": "What are the basic primitive types in TypeScript?",
+        "ar": "ما هي الأنواع الأساسية في تايب سكريبت؟"
+      },
+      "correctAnswers": {
+        "en": ["string", "number", "boolean"],
+        "ar": ["string", "number", "boolean"]
+      },
+      "questionType": "text",
+      "hint": {
+        "en": "There are three main ones: text, numbers, and true/false.",
+        "ar": "هناك ثلاثة رئيسية: نص، أرقام، وصحيح/خطأ."
+      },
+      "id": 9,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "id": 3,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "Which command compiles TypeScript to JavaScript?",
-      "ar": "أي أمر يترجم تايب سكريبت إلى جافاسكريبت؟"
+    {
+      "question": {
+        "en": "Which keyword creates type aliases in TypeScript?",
+        "ar": "أي كلمة مفتاحية تنشئ أسماء مستعارة للأنواع في تايب سكريبت؟"
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "type",
+            "isCorrect": true
+          },
+          {
+            "text": "interface",
+            "isCorrect": false
+          },
+          {
+            "text": "class",
+            "isCorrect": false
+          },
+          {
+            "text": "alias",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "type",
+            "isCorrect": true
+          },
+          {
+            "text": "interface",
+            "isCorrect": false
+          },
+          {
+            "text": "class",
+            "isCorrect": false
+          },
+          {
+            "text": "alias",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "multiple choice",
+      "hint": {
+        "en": "It's a short, simple word.",
+        "ar": "إنها كلمة قصيرة وبسيطة."
+      },
+      "id": 10,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "answers": {
-      "en": [
-        {
-          "text": "tsc",
-          "isCorrect": true
-        },
-        {
-          "text": "npm",
-          "isCorrect": false
-        },
-        {
-          "text": "node",
-          "isCorrect": false
-        },
-        {
-          "text": "ts-compile",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "tsc",
-          "isCorrect": true
-        },
-        {
-          "text": "npm",
-          "isCorrect": false
-        },
-        {
-          "text": "node",
-          "isCorrect": false
-        },
-        {
-          "text": "ts-compile",
-          "isCorrect": false
-        }
-      ]
+    {
+      "question": {
+        "en": "Generics in TypeScript use angle brackets.",
+        "ar": "الأنواع العامة في تايب سكريبت تستخدم الأقواس الزاوية."
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "صح",
+            "isCorrect": true
+          },
+          {
+            "text": "غلط",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "trueFalse",
+      "hint": {
+        "en": "Like <T> for generic types.",
+        "ar": "مثل <T> للأنواع العامة."
+      },
+      "id": 11,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "questionType": "multiple choice",
-    "hint": {
-      "en": "It stands for TypeScript Compiler.",
-      "ar": "يرمز إلى مترجم تايب سكريبت."
+    {
+      "question": {
+        "en": "What does 'any' type mean in TypeScript?",
+        "ar": "ماذا يعني نوع 'any' في تايب سكريبت؟"
+      },
+      "correctAnswers": {
+        "en": ["any type", "disable type checking", "no type checking"],
+        "ar": ["أي نوع", "تعطيل فحص الأنواع", "بدون فحص أنواع"]
+      },
+      "questionType": "text",
+      "hint": {
+        "en": "It disables TypeScript's main feature.",
+        "ar": "يعطل الميزة الرئيسية لتايب سكريبت."
+      },
+      "id": 12,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "id": 4,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "TypeScript requires compilation before running.",
-      "ar": "تايب سكريبت تتطلب ترجمة قبل التشغيل."
+    {
+      "question": {
+        "en": "Which is correct for array typing in TypeScript?",
+        "ar": "أيهما صحيح لكتابة المصفوفات في تايب سكريبت؟"
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "number[] or Array<number>",
+            "isCorrect": true
+          },
+          {
+            "text": "array<number>",
+            "isCorrect": false
+          },
+          {
+            "text": "[number]",
+            "isCorrect": false
+          },
+          {
+            "text": "numbers[]",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "number[] or Array<number>",
+            "isCorrect": true
+          },
+          {
+            "text": "array<number>",
+            "isCorrect": false
+          },
+          {
+            "text": "[number]",
+            "isCorrect": false
+          },
+          {
+            "text": "numbers[]",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "multiple choice",
+      "hint": {
+        "en": "There are two valid syntaxes.",
+        "ar": "هناك صيغتان صالحتان."
+      },
+      "id": 13,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "answers": {
-      "en": [
-        {
-          "text": "True",
-          "isCorrect": true
-        },
-        {
-          "text": "False",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "صح",
-          "isCorrect": true
-        },
-        {
-          "text": "غلط",
-          "isCorrect": false
-        }
-      ]
+    {
+      "question": {
+        "en": "TypeScript has better IDE support than JavaScript.",
+        "ar": "تايب سكريبت لديها دعم أفضل لبيئات التطوير من جافاسكريبت."
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "صح",
+            "isCorrect": true
+          },
+          {
+            "text": "غلط",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "trueFalse",
+      "hint": {
+        "en": "Type information helps with autocomplete and error detection.",
+        "ar": "معلومات الأنواع تساعد في الإكمال التلقائي واكتشاف الأخطاء."
+      },
+      "id": 14,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "questionType": "trueFalse",
-    "hint": {
-      "en": "It compiles to JavaScript first.",
-      "ar": "تترجم إلى جافاسكريبت أولاً."
+    {
+      "question": {
+        "en": "What symbol makes a property optional in TypeScript?",
+        "ar": "ما الرمز الذي يجعل الخاصية اختيارية في تايب سكريبت؟"
+      },
+      "correctAnswers": {
+        "en": ["?", "question mark"],
+        "ar": ["?", "علامة استفهام"]
+      },
+      "questionType": "text",
+      "hint": {
+        "en": "It's a punctuation mark used for questions.",
+        "ar": "إنه علامة ترقيم تُستخدم للأسئلة."
+      },
+      "id": 15,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "id": 5,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "What symbol is used to define types in TypeScript?",
-      "ar": "ما الرمز المستخدم لتعريف الأنواع في تايب سكريبت؟"
+    {
+      "question": {
+        "en": "Which TypeScript feature helps catch errors at compile time?",
+        "ar": "أي ميزة في تايب سكريبت تساعد في اكتشاف الأخطاء وقت الترجمة؟"
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "Static typing",
+            "isCorrect": true
+          },
+          {
+            "text": "Dynamic typing",
+            "isCorrect": false
+          },
+          {
+            "text": "Runtime checking",
+            "isCorrect": false
+          },
+          {
+            "text": "Console logging",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "الكتابة الثابتة",
+            "isCorrect": true
+          },
+          {
+            "text": "الكتابة الديناميكية",
+            "isCorrect": false
+          },
+          {
+            "text": "فحص وقت التشغيل",
+            "isCorrect": false
+          },
+          {
+            "text": "سجل وحدة التحكم",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "multiple choice",
+      "hint": {
+        "en": "It's TypeScript's main advantage over JavaScript.",
+        "ar": "إنها الميزة الرئيسية لتايب سكريبت على جافاسكريبت."
+      },
+      "id": 16,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "correctAnswers": {
-      "en": [":", "colon"],
-      "ar": [":", "نقطتان"]
+    {
+      "question": {
+        "en": "Union types in TypeScript use the | operator.",
+        "ar": "أنواع الاتحاد في تايب سكريبت تستخدم العامل |."
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "صح",
+            "isCorrect": true
+          },
+          {
+            "text": "غلط",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "trueFalse",
+      "hint": {
+        "en": "Like string | number for multiple possible types.",
+        "ar": "مثل string | number لأنواع متعددة محتملة."
+      },
+      "id": 17,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "questionType": "text",
-    "hint": {
-      "en": "It comes after the variable name.",
-      "ar": "يأتي بعد اسم المتغير."
+    {
+      "question": {
+        "en": "What's the configuration file for TypeScript projects?",
+        "ar": "ما هو ملف التكوين لمشاريع تايب سكريبت؟"
+      },
+      "correctAnswers": {
+        "en": ["tsconfig.json"],
+        "ar": ["tsconfig.json"]
+      },
+      "questionType": "text",
+      "hint": {
+        "en": "It's a JSON file starting with 'ts'.",
+        "ar": "إنه ملف JSON يبدأ بـ 'ts'."
+      },
+      "id": 18,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "id": 6,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "Which of these is a valid TypeScript interface?",
-      "ar": "أي من هذه واجهة تايب سكريبت صالحة؟"
+    {
+      "question": {
+        "en": "Which decorator is used for classes in TypeScript?",
+        "ar": "أي decorator يُستخدم للفئات في تايب سكريبت؟"
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "@",
+            "isCorrect": true
+          },
+          {
+            "text": "#",
+            "isCorrect": false
+          },
+          {
+            "text": "&",
+            "isCorrect": false
+          },
+          {
+            "text": "%",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "@",
+            "isCorrect": true
+          },
+          {
+            "text": "#",
+            "isCorrect": false
+          },
+          {
+            "text": "&",
+            "isCorrect": false
+          },
+          {
+            "text": "%",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "multiple choice",
+      "hint": {
+        "en": "Same symbol used in social media mentions.",
+        "ar": "نفس الرمز المستخدم في إشارات وسائل التواصل."
+      },
+      "id": 19,
+      "category": "TypeScript",
+      "isAnswered": false
     },
-    "answers": {
-      "en": [
-        {
-          "text": "interface User { name: string; }",
-          "isCorrect": true
-        },
-        {
-          "text": "class User { name: string; }",
-          "isCorrect": false
-        },
-        {
-          "text": "type User = string",
-          "isCorrect": false
-        },
-        {
-          "text": "function User() {}",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "interface User { name: string; }",
-          "isCorrect": true
-        },
-        {
-          "text": "class User { name: string; }",
-          "isCorrect": false
-        },
-        {
-          "text": "type User = string",
-          "isCorrect": false
-        },
-        {
-          "text": "function User() {}",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "multiple choice",
-    "hint": {
-      "en": "Interfaces define object structure.",
-      "ar": "الواجهات تحدد بنية الكائن."
-    },
-    "id": 7,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "TypeScript supports optional properties.",
-      "ar": "تايب سكريبت تدعم الخصائص الاختيارية."
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "True",
-          "isCorrect": true
-        },
-        {
-          "text": "False",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "صح",
-          "isCorrect": true
-        },
-        {
-          "text": "غلط",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "trueFalse",
-    "hint": {
-      "en": "Use the ? symbol for optional properties.",
-      "ar": "استخدم رمز ? للخصائص الاختيارية."
-    },
-    "id": 8,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "What are the basic primitive types in TypeScript?",
-      "ar": "ما هي الأنواع الأساسية في تايب سكريبت؟"
-    },
-    "correctAnswers": {
-      "en": ["string", "number", "boolean"],
-      "ar": ["string", "number", "boolean"]
-    },
-    "questionType": "text",
-    "hint": {
-      "en": "There are three main ones: text, numbers, and true/false.",
-      "ar": "هناك ثلاثة رئيسية: نص، أرقام، وصحيح/خطأ."
-    },
-    "id": 9,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "Which keyword creates type aliases in TypeScript?",
-      "ar": "أي كلمة مفتاحية تنشئ أسماء مستعارة للأنواع في تايب سكريبت؟"
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "type",
-          "isCorrect": true
-        },
-        {
-          "text": "interface",
-          "isCorrect": false
-        },
-        {
-          "text": "class",
-          "isCorrect": false
-        },
-        {
-          "text": "alias",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "type",
-          "isCorrect": true
-        },
-        {
-          "text": "interface",
-          "isCorrect": false
-        },
-        {
-          "text": "class",
-          "isCorrect": false
-        },
-        {
-          "text": "alias",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "multiple choice",
-    "hint": {
-      "en": "It's a short, simple word.",
-      "ar": "إنها كلمة قصيرة وبسيطة."
-    },
-    "id": 10,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "Generics in TypeScript use angle brackets.",
-      "ar": "الأنواع العامة في تايب سكريبت تستخدم الأقواس الزاوية."
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "True",
-          "isCorrect": true
-        },
-        {
-          "text": "False",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "صح",
-          "isCorrect": true
-        },
-        {
-          "text": "غلط",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "trueFalse",
-    "hint": {
-      "en": "Like <T> for generic types.",
-      "ar": "مثل <T> للأنواع العامة."
-    },
-    "id": 11,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "What does 'any' type mean in TypeScript?",
-      "ar": "ماذا يعني نوع 'any' في تايب سكريبت؟"
-    },
-    "correctAnswers": {
-      "en": ["any type", "disable type checking", "no type checking"],
-      "ar": ["أي نوع", "تعطيل فحص الأنواع", "بدون فحص أنواع"]
-    },
-    "questionType": "text",
-    "hint": {
-      "en": "It disables TypeScript's main feature.",
-      "ar": "يعطل الميزة الرئيسية لتايب سكريبت."
-    },
-    "id": 12,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "Which is correct for array typing in TypeScript?",
-      "ar": "أيهما صحيح لكتابة المصفوفات في تايب سكريبت؟"
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "number[] or Array<number>",
-          "isCorrect": true
-        },
-        {
-          "text": "array<number>",
-          "isCorrect": false
-        },
-        {
-          "text": "[number]",
-          "isCorrect": false
-        },
-        {
-          "text": "numbers[]",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "number[] or Array<number>",
-          "isCorrect": true
-        },
-        {
-          "text": "array<number>",
-          "isCorrect": false
-        },
-        {
-          "text": "[number]",
-          "isCorrect": false
-        },
-        {
-          "text": "numbers[]",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "multiple choice",
-    "hint": {
-      "en": "There are two valid syntaxes.",
-      "ar": "هناك صيغتان صالحتان."
-    },
-    "id": 13,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "TypeScript has better IDE support than JavaScript.",
-      "ar": "تايب سكريبت لديها دعم أفضل لبيئات التطوير من جافاسكريبت."
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "True",
-          "isCorrect": true
-        },
-        {
-          "text": "False",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "صح",
-          "isCorrect": true
-        },
-        {
-          "text": "غلط",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "trueFalse",
-    "hint": {
-      "en": "Type information helps with autocomplete and error detection.",
-      "ar": "معلومات الأنواع تساعد في الإكمال التلقائي واكتشاف الأخطاء."
-    },
-    "id": 14,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "What symbol makes a property optional in TypeScript?",
-      "ar": "ما الرمز الذي يجعل الخاصية اختيارية في تايب سكريبت؟"
-    },
-    "correctAnswers": {
-      "en": ["?", "question mark"],
-      "ar": ["?", "علامة استفهام"]
-    },
-    "questionType": "text",
-    "hint": {
-      "en": "It's a punctuation mark used for questions.",
-      "ar": "إنه علامة ترقيم تُستخدم للأسئلة."
-    },
-    "id": 15,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "Which TypeScript feature helps catch errors at compile time?",
-      "ar": "أي ميزة في تايب سكريبت تساعد في اكتشاف الأخطاء وقت الترجمة؟"
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "Static typing",
-          "isCorrect": true
-        },
-        {
-          "text": "Dynamic typing",
-          "isCorrect": false
-        },
-        {
-          "text": "Runtime checking",
-          "isCorrect": false
-        },
-        {
-          "text": "Console logging",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "الكتابة الثابتة",
-          "isCorrect": true
-        },
-        {
-          "text": "الكتابة الديناميكية",
-          "isCorrect": false
-        },
-        {
-          "text": "فحص وقت التشغيل",
-          "isCorrect": false
-        },
-        {
-          "text": "سجل وحدة التحكم",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "multiple choice",
-    "hint": {
-      "en": "It's TypeScript's main advantage over JavaScript.",
-      "ar": "إنها الميزة الرئيسية لتايب سكريبت على جافاسكريبت."
-    },
-    "id": 16,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "Union types in TypeScript use the | operator.",
-      "ar": "أنواع الاتحاد في تايب سكريبت تستخدم العامل |."
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "True",
-          "isCorrect": true
-        },
-        {
-          "text": "False",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "صح",
-          "isCorrect": true
-        },
-        {
-          "text": "غلط",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "trueFalse",
-    "hint": {
-      "en": "Like string | number for multiple possible types.",
-      "ar": "مثل string | number لأنواع متعددة محتملة."
-    },
-    "id": 17,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "What's the configuration file for TypeScript projects?",
-      "ar": "ما هو ملف التكوين لمشاريع تايب سكريبت؟"
-    },
-    "correctAnswers": {
-      "en": ["tsconfig.json"],
-      "ar": ["tsconfig.json"]
-    },
-    "questionType": "text",
-    "hint": {
-      "en": "It's a JSON file starting with 'ts'.",
-      "ar": "إنه ملف JSON يبدأ بـ 'ts'."
-    },
-    "id": 18,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "Which decorator is used for classes in TypeScript?",
-      "ar": "أي decorator يُستخدم للفئات في تايب سكريبت؟"
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "@",
-          "isCorrect": true
-        },
-        {
-          "text": "#",
-          "isCorrect": false
-        },
-        {
-          "text": "&",
-          "isCorrect": false
-        },
-        {
-          "text": "%",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "@",
-          "isCorrect": true
-        },
-        {
-          "text": "#",
-          "isCorrect": false
-        },
-        {
-          "text": "&",
-          "isCorrect": false
-        },
-        {
-          "text": "%",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "multiple choice",
-    "hint": {
-      "en": "Same symbol used in social media mentions.",
-      "ar": "نفس الرمز المستخدم في إشارات وسائل التواصل."
-    },
-    "id": 19,
-    "category": "TypeScript",
-    "isAnswered": false
-  },
-  {
-    "question": {
-      "en": "TypeScript is developed by Microsoft.",
-      "ar": "تايب سكريبت طورتها مايكروسوفت."
-    },
-    "answers": {
-      "en": [
-        {
-          "text": "True",
-          "isCorrect": true
-        },
-        {
-          "text": "False",
-          "isCorrect": false
-        }
-      ],
-      "ar": [
-        {
-          "text": "صح",
-          "isCorrect": true
-        },
-        {
-          "text": "غلط",
-          "isCorrect": false
-        }
-      ]
-    },
-    "questionType": "trueFalse",
-    "hint": {
-      "en": "It was created by Anders Hejlsberg at Microsoft.",
-      "ar": "أنشأها أندرس هيجلسبيرغ في مايكروسوفت."
-    },
-    "id": 20,
-    "category": "TypeScript",
-    "isAnswered": false
-  }
-]
+    {
+      "question": {
+        "en": "TypeScript is developed by Microsoft.",
+        "ar": "تايب سكريبت طورتها مايكروسوفت."
+      },
+      "answers": {
+        "en": [
+          {
+            "text": "True",
+            "isCorrect": true
+          },
+          {
+            "text": "False",
+            "isCorrect": false
+          }
+        ],
+        "ar": [
+          {
+            "text": "صح",
+            "isCorrect": true
+          },
+          {
+            "text": "غلط",
+            "isCorrect": false
+          }
+        ]
+      },
+      "questionType": "trueFalse",
+      "hint": {
+        "en": "It was created by Anders Hejlsberg at Microsoft.",
+        "ar": "أنشأها أندرس هيجلسبيرغ في مايكروسوفت."
+      },
+      "id": 20,
+      "category": "TypeScript",
+      "isAnswered": false
+    }
+  ]
+}
