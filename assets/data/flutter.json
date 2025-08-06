@@ -1,0 +1,726 @@
+[
+  {
+    "question": {
+      "en": "What programming language is used by Flutter?",
+      "ar": "ما هي لغة البرمجة التي يستخدمها فلاتر؟"
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "Dart",
+          "isCorrect": true
+        },
+        {
+          "text": "JavaScript",
+          "isCorrect": false
+        },
+        {
+          "text": "Kotlin",
+          "isCorrect": false
+        },
+        {
+          "text": "Swift",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "Dart",
+          "isCorrect": true
+        },
+        {
+          "text": "JavaScript",
+          "isCorrect": false
+        },
+        {
+          "text": "Kotlin",
+          "isCorrect": false
+        },
+        {
+          "text": "Swift",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "multiple choice",
+    "hint": {
+      "en": "It's a client-optimized language for building apps on any platform, also developed by Google.",
+      "ar": "إنها لغة مُحسَّنة للعميل لبناء التطبيقات على أي منصة، وقد طورتها جوجل أيضًا."
+    },
+    "id": 1,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "In Flutter, everything is a Widget.",
+      "ar": "في فلاتر، كل شيء هو ودجت (Widget)."
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "True",
+          "isCorrect": true
+        },
+        {
+          "text": "False",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "صح",
+          "isCorrect": true
+        },
+        {
+          "text": "غلط",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "trueFalse",
+    "hint": {
+      "en": "From buttons and text to layouts and animations, they are all widgets.",
+      "ar": "من الأزرار والنصوص إلى التخطيطات والرسوم المتحركة، كلها ودجت."
+    },
+    "id": 2,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "What command is used to create a new Flutter project?",
+      "ar": "ما هو الأمر المستخدم لإنشاء مشروع فلاتر جديد؟"
+    },
+    "correctAnswers": {
+      "en": ["flutter create"],
+      "ar": ["flutter create"]
+    },
+    "questionType": "text",
+    "hint": {
+      "en": "It's a command-line tool command followed by the verb 'create' and your project name.",
+      "ar": "إنه أمر من أداة سطر الأوامر متبوعًا بالفعل 'create' واسم مشروعك."
+    },
+    "id": 3,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "What are the two main types of widgets in Flutter?",
+      "ar": "ما هما النوعان الرئيسيان للودجت في فلاتر؟"
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "Stateless and Stateful",
+          "isCorrect": true
+        },
+        {
+          "text": "Static and Dynamic",
+          "isCorrect": false
+        },
+        {
+          "text": "Visible and Invisible",
+          "isCorrect": false
+        },
+        {
+          "text": "Parent and Child",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "Stateless و Stateful (عديمة الحالة وذات الحالة)",
+          "isCorrect": true
+        },
+        {
+          "text": "ثابتة وديناميكية",
+          "isCorrect": false
+        },
+        {
+          "text": "مرئية وغير مرئية",
+          "isCorrect": false
+        },
+        {
+          "text": "أب وابن",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "multiple choice",
+    "hint": {
+      "en": "One type has mutable state, and the other does not.",
+      "ar": "أحد النوعين له حالة قابلة للتغيير، والآخر ليس له."
+    },
+    "id": 4,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "You can call `setState()` in a StatelessWidget.",
+      "ar": "يمكنك استدعاء `setState()` في ودجت عديم الحالة (StatelessWidget)."
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "False",
+          "isCorrect": true
+        },
+        {
+          "text": "True",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "غلط",
+          "isCorrect": true
+        },
+        {
+          "text": "صح",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "trueFalse",
+    "hint": {
+      "en": "`setState()` is used to notify the framework that the internal state of a StatefulWidget has changed.",
+      "ar": "تستخدم `setState()` لإعلام الإطار بأن الحالة الداخلية لودجت ذي الحالة (StatefulWidget) قد تغيرت."
+    },
+    "id": 5,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "What is the name of the file for managing project dependencies?",
+      "ar": "ما هو اسم الملف المستخدم لإدارة تبعيات المشروع؟"
+    },
+    "correctAnswers": {
+      "en": ["pubspec.yaml"],
+      "ar": ["pubspec.yaml"]
+    },
+    "questionType": "text",
+    "hint": {
+      "en": "It's a YAML file that manages metadata, assets, and dependencies for a Flutter project.",
+      "ar": "إنه ملف YAML يدير البيانات الوصفية والأصول والتبعيات لمشروع فلاتر."
+    },
+    "id": 6,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "Which layout widget is used to arrange children in a vertical line?",
+      "ar": "أي ودجت تخطيط يستخدم لترتيب العناصر الأبناء في خط عمودي؟"
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "Column",
+          "isCorrect": true
+        },
+        {
+          "text": "Row",
+          "isCorrect": false
+        },
+        {
+          "text": "Stack",
+          "isCorrect": false
+        },
+        {
+          "text": "ListView",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "Column (عمود)",
+          "isCorrect": true
+        },
+        {
+          "text": "Row (صف)",
+          "isCorrect": false
+        },
+        {
+          "text": "Stack (مكدس)",
+          "isCorrect": false
+        },
+        {
+          "text": "ListView (قائمة عرض)",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "multiple choice",
+    "hint": {
+      "en": "Its horizontal counterpart is the Row widget.",
+      "ar": "نظيره الأفقي هو ودجت الصف (Row)."
+    },
+    "id": 7,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "Flutter's Hot Reload feature rebuilds the entire widget tree and resets the app state.",
+      "ar": "ميزة إعادة التحميل السريع (Hot Reload) في فلاتر تعيد بناء شجرة الودجت بأكملها وتعيد ضبط حالة التطبيق."
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "False",
+          "isCorrect": true
+        },
+        {
+          "text": "True",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "غلط",
+          "isCorrect": true
+        },
+        {
+          "text": "صح",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "trueFalse",
+    "hint": {
+      "en": "Hot Reload preserves the app state. Hot Restart resets it.",
+      "ar": "إعادة التحميل السريع تحافظ على حالة التطبيق. إعادة التشغيل السريع (Hot Restart) هي التي تعيد ضبطها."
+    },
+    "id": 8,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "What is the entry point of a Flutter application?",
+      "ar": "ما هي نقطة الدخول لتطبيق فلاتر؟"
+    },
+    "correctAnswers": {
+      "en": ["main()", "void main()"],
+      "ar": ["main()", "void main()"]
+    },
+    "questionType": "text",
+    "hint": {
+      "en": "It's a function where the execution of the app begins.",
+      "ar": "إنها دالة تبدأ منها تنفيذ التطبيق."
+    },
+    "id": 9,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "Which company developed and maintains Flutter?",
+      "ar": "أي شركة قامت بتطوير وصيانة فلاتر؟"
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "Google",
+          "isCorrect": true
+        },
+        {
+          "text": "Meta (Facebook)",
+          "isCorrect": false
+        },
+        {
+          "text": "Microsoft",
+          "isCorrect": false
+        },
+        {
+          "text": "Apple",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "جوجل",
+          "isCorrect": true
+        },
+        {
+          "text": "ميتا (فيسبوك)",
+          "isCorrect": false
+        },
+        {
+          "text": "مايكروسوفت",
+          "isCorrect": false
+        },
+        {
+          "text": "آبل",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "multiple choice",
+    "hint": {
+      "en": "This company also developed the Dart programming language.",
+      "ar": "هذه الشركة طورت أيضًا لغة البرمجة Dart."
+    },
+    "id": 10,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "Flutter can only be used to build apps for Android and iOS.",
+      "ar": "لا يمكن استخدام فلاتر إلا لبناء تطبيقات لنظامي أندرويد و iOS."
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "False",
+          "isCorrect": true
+        },
+        {
+          "text": "True",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "غلط",
+          "isCorrect": true
+        },
+        {
+          "text": "صح",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "trueFalse",
+    "hint": {
+      "en": "Flutter supports mobile, web, desktop, and embedded platforms from a single codebase.",
+      "ar": "يدعم فلاتر منصات المحمول والويب وسطح المكتب والأنظمة المدمجة من قاعدة بيانات واحدة."
+    },
+    "id": 11,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "What widget should be the root of your app to use Material Design?",
+      "ar": "ما هو الودجت الذي يجب أن يكون جذر تطبيقك لاستخدام تصميم المواد (Material Design)؟"
+    },
+    "correctAnswers": {
+      "en": ["MaterialApp"],
+      "ar": ["MaterialApp"]
+    },
+    "questionType": "text",
+    "hint": {
+      "en": "For iOS-style apps, you might use CupertinoApp.",
+      "ar": "للتطبيقات بنمط iOS، قد تستخدم CupertinoApp."
+    },
+    "id": 12,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "Which widget provides a basic Material Design visual layout structure?",
+      "ar": "أي ودجت يوفر بنية تخطيط مرئية أساسية لتصميم المواد؟"
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "Scaffold",
+          "isCorrect": true
+        },
+        {
+          "text": "Container",
+          "isCorrect": false
+        },
+        {
+          "text": "MaterialApp",
+          "isCorrect": false
+        },
+        {
+          "text": "Column",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "Scaffold (سقالة)",
+          "isCorrect": true
+        },
+        {
+          "text": "Container (حاوية)",
+          "isCorrect": false
+        },
+        {
+          "text": "MaterialApp (تطبيق مواد)",
+          "isCorrect": false
+        },
+        {
+          "text": "Column (عمود)",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "multiple choice",
+    "hint": {
+      "en": "It often includes an AppBar, a body, and a FloatingActionButton.",
+      "ar": "غالبًا ما يتضمن شريط تطبيقات (AppBar) وجسم (body) وزر إجراء عائم (FloatingActionButton)."
+    },
+    "id": 13,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "The `build()` method of a widget is called only once when the widget is created.",
+      "ar": "يتم استدعاء دالة `build()` للودجت مرة واحدة فقط عند إنشائه."
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "False",
+          "isCorrect": true
+        },
+        {
+          "text": "True",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "غلط",
+          "isCorrect": true
+        },
+        {
+          "text": "صح",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "trueFalse",
+    "hint": {
+      "en": "The build method can be called by the framework at any time, for example, when the state changes.",
+      "ar": "يمكن للإطار استدعاء دالة البناء في أي وقت، على سبيل المثال، عند تغير الحالة."
+    },
+    "id": 14,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "What widget is used to place widgets on top of each other?",
+      "ar": "أي ودجت يستخدم لوضع الودجت فوق بعضها البعض؟"
+    },
+    "correctAnswers": {
+      "en": ["Stack"],
+      "ar": ["Stack"]
+    },
+    "questionType": "text",
+    "hint": {
+      "en": "Think of it like a stack of papers.",
+      "ar": "فكر في الأمر كأنه كومة من الأوراق."
+    },
+    "id": 15,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "How do you add space around a widget?",
+      "ar": "كيف تضيف مساحة حول ودجت؟"
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "Wrap it with a Padding widget",
+          "isCorrect": true
+        },
+        {
+          "text": "Use the 'space' property",
+          "isCorrect": false
+        },
+        {
+          "text": "Use the 'margin' property directly on the widget",
+          "isCorrect": false
+        },
+        {
+          "text": "Wrap it with a Space widget",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "تغليفه بودجت Padding",
+          "isCorrect": true
+        },
+        {
+          "text": "استخدام خاصية 'space'",
+          "isCorrect": false
+        },
+        {
+          "text": "استخدام خاصية 'margin' مباشرة على الودجت",
+          "isCorrect": false
+        },
+        {
+          "text": "تغليفه بودجت Space",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "multiple choice",
+    "hint": {
+      "en": "Some widgets like Container have a padding property, but the most common way is to use a specific widget for it.",
+      "ar": "بعض الودجت مثل Container لها خاصية padding، ولكن الطريقة الأكثر شيوعًا هي استخدام ودجت معين لذلك."
+    },
+    "id": 16,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "`mainAxisAlignment` aligns children along the horizontal axis of a Column.",
+      "ar": "`mainAxisAlignment` تقوم بمحاذاة العناصر الأبناء على طول المحور الأفقي لودجت Column."
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "False",
+          "isCorrect": true
+        },
+        {
+          "text": "True",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "غلط",
+          "isCorrect": true
+        },
+        {
+          "text": "صح",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "trueFalse",
+    "hint": {
+      "en": "The main axis of a Column is vertical. The cross axis is horizontal.",
+      "ar": "المحور الرئيسي لـ Column عمودي. المحور المتقاطع أفقي."
+    },
+    "id": 17,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "What widget builds itself based on the latest snapshot of interaction with an asynchronous computation?",
+      "ar": "ما هو الودجت الذي يبني نفسه بناءً على أحدث لقطة من التفاعل مع عملية حسابية غير متزامنة؟"
+    },
+    "correctAnswers": {
+      "en": ["FutureBuilder"],
+      "ar": ["FutureBuilder"]
+    },
+    "questionType": "text",
+    "hint": {
+      "en": "It is very useful for showing a loading spinner while fetching data from an API.",
+      "ar": "إنه مفيد جدًا لإظهار مؤشر تحميل أثناء جلب البيانات من واجهة برمجة التطبيقات."
+    },
+    "id": 18,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "Which of these is a popular approach for state management in Flutter?",
+      "ar": "أي من هذه هو نهج شائع لإدارة الحالة في فلاتر؟"
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "Provider",
+          "isCorrect": true
+        },
+        {
+          "text": "StatefulWidget",
+          "isCorrect": false
+        },
+        {
+          "text": "EventBus",
+          "isCorrect": false
+        },
+        {
+          "text": "DataHolder",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "Provider",
+          "isCorrect": true
+        },
+        {
+          "text": "StatefulWidget",
+          "isCorrect": false
+        },
+        {
+          "text": "EventBus",
+          "isCorrect": false
+        },
+        {
+          "text": "DataHolder",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "multiple choice",
+    "hint": {
+      "en": "Other popular options include BLoC and Riverpod. This one is a wrapper around InheritedWidget.",
+      "ar": "تشمل الخيارات الشائعة الأخرى BLoC و Riverpod. هذا الخيار هو غلاف حول InheritedWidget."
+    },
+    "id": 19,
+    "category": "Flutter",
+    "isAnswered": false
+  },
+  {
+    "question": {
+      "en": "The primary way to interact with a device's native platform is through 'channels'.",
+      "ar": "الطريقة الأساسية للتفاعل مع منصة الجهاز الأصلية هي من خلال 'القنوات' (channels)."
+    },
+    "answers": {
+      "en": [
+        {
+          "text": "True",
+          "isCorrect": true
+        },
+        {
+          "text": "False",
+          "isCorrect": false
+        }
+      ],
+      "ar": [
+        {
+          "text": "صح",
+          "isCorrect": true
+        },
+        {
+          "text": "غلط",
+          "isCorrect": false
+        }
+      ]
+    },
+    "questionType": "trueFalse",
+    "hint": {
+      "en": "Flutter uses a flexible system that allows you to call platform-specific APIs available in Java/Kotlin on Android or Swift/Objective-C on iOS.",
+      "ar": "يستخدم فلاتر نظامًا مرنًا يسمح لك باستدعاء واجهات برمجة التطبيقات الخاصة بالمنصة المتاحة في Java/Kotlin على أندرويد أو Swift/Objective-C على iOS."
+    },
+    "id": 20,
+    "category": "Flutter",
+    "isAnswered": false
+  }
+]
