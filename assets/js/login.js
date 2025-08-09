@@ -2,7 +2,7 @@
 console.log(window.sessionStorage);
 const inputs = document.querySelectorAll("input");
 const errors = document.querySelectorAll(".error");
-let isValid = true;
+isValid = true;
 
 document.querySelector("button").addEventListener("click", function () {
     var email = inputs[0].value;
@@ -28,8 +28,10 @@ document.querySelector("button").addEventListener("click", function () {
         isValid = false;
     }
     if (isValid) {
-        open("./../index.html", "_self");
-    }
+        window.open("index.html", "_blank")
+        console.log(user);
+  }
+    
 });
 
 inputs.forEach((input, i) => {
