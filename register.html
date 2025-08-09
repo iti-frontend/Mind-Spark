@@ -4,54 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>register</title>
+    <title>Mind Spark - Register</title>
     <link rel="stylesheet" href="./assets/css/register.css">
 </head>
 
 <body>
-    <section class="login__section ">
-        <div><img class="login__logo" src="/assets/images/gradient-brain-background.png" alt="" srcset="">
-            <span class="login__logo__span">Mind-Spark</span>
-        </div>
-        <div class="container one_flex d__flex justify__center align__center">
-            <!-- left section -->
-            <div class="left one_flex d__flex justify__center align__center">
+    <section class="register__section">
+        <div class="container">
+            <!-- Left Section - register Form -->
+            <div class="left">
                 <div class="inner__container">
-                    <div class="login__header">
-                        <span>Sign UP</span>
-                        <p class="login__p">Create your account to get full access</p>
+                    <div class="register__header">
+                        <span>Create An Account</span>
+                        <p class="register__p">Enter your name, email, password to get access</p>
                     </div>
-                    <!-- inputs -->
-                    <div class="userName">
-                        <input type="text" name="username" id="username" placeholder="Username / Email address" />
-                        <p class="error"></p>
-                    </div>
-                    <div class="email">
-                        <input type="email" name="email" id="email" placeholder="Enter email address" />
-                        <p class="error"></p>
-                    </div>
-                    <div class="password">
-                        <input type="password" name="password" id="password" placeholder="Enter Password" />
-                        <p class="error"></p>
-                    </div>
-                    <div class="re-password">
-                        <input type="password" name="re-Password" id="re-Password" placeholder="Confirm password" />
-                        <p class="error"></p>
-                    </div>
-                    <!-- forget password -->
-                    <div class="login__sign__up">
-                        <p>Already have an account? <a href="signUp.html"> login</a> here</p>
-                        <button class="login__btn" type="submit">signUp</button>
-                    </div>
+                    <form id="registerForm">
+                        <div class="userName">
+                            <input type="text" name="username" id="username" placeholder="Full Name"
+                                required />
+                            <p class="error" id="usernameError"></p>
+                        </div>
+
+                        <div class="userName">
+                            <input type="text" name="username" id="username" placeholder="Email address"
+                                required />
+                            <p class="error" id="usernameError"></p>
+                        </div>
+
+                        <div class="password">
+                            <input type="password" name="password" id="password" placeholder="Password"
+                                required />
+                            <p class="error" id="passwordError"></p>
+                        </div>
+
+                        <div class="password">
+                            <input type="password" name="password" id="password" placeholder="Re-password"
+                                required />
+                            <p class="error" id="passwordError"></p>
+                        </div>
+                        <div class="register__sign__up">
+                            <p>Already have an account? <a href="login.html"> Log in</a> here</p>
+                           
+                        </div>
+                    </form>
+                     <button class="register__btn" type="submit">Sign up</button>
                 </div>
             </div>
-            <!-- right section -->
-            <div class="right text__center d__flex justify__center align__center">
+            <!-- Left Section - register Form -->
 
-                <h1>Welcome to DevAnswers</h1>
-                <p>Join a growing community of developers. Ask questions,<br> share knowledge, and level up your coding
-                    skills.</p>
+            <!-- Right Section - Welcome -->
+            <div class="right">
+                <div class="logo__container">
+                    <div class="">
+                        <img src="assets/images/gradient-brain-background.png" alt="logo image"
+                            class="register__logo" />
+                    </div>
+                </div>
+                <h1>Welcome to Mind Spark</h1>
+                <p>
+                    Ask questions. Get coding answers.
+                </p>
+                <p>Support for all major programming languages.</p>
             </div>
+            <!-- Right Section - Welcome -->
+            
         </div>
     </section>
     <script src="./assets/js/register.js"></script>

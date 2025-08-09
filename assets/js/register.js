@@ -14,32 +14,34 @@ document.querySelector("button").addEventListener("click", function () {
   var users = JSON.parse(localStorage.getItem("users")) || [];
 
   if (!nameRegex.test(userName.trim())) {
-    inputs[0].style.border = "2px solid red";
-    errors[0].innerText = "Please enter valid name";
-    isValid = false;
-  }
+  inputs[0].style.border = "2px solid red";
+  errors[0].innerText = "Oops! That name looks funky. Try again 🤔";
+  isValid = false;
+}
 
-  if (!emailRegex.test(email)) {
-    inputs[1].style.border = "2px solid red";
-    errors[1].innerText = "Please enter valid E-mail";
-    isValid = false;
-  }
-  // Check if email already exists in users array
-  if (users.some(u => u.email === email)) {
-    inputs[1].style.border = "2px solid red";
-    errors[1].innerText = "This email is already Exist";
-    isValid = false;
-  }
-  if (!passwordRegex.test(password)) {
-    inputs[2].style.border = "2px solid red";
-    errors[2].innerText = "Please enter valid password";
-    isValid = false;
-  }
-  if (password !== re_Password || re_Password == "") {
-    inputs[3].style.border = "2px solid red";
-    errors[3].innerText = "The password doesn't match";
-    isValid = false;
-  }
+if (!emailRegex.test(email)) {
+  inputs[1].style.border = "2px solid red";
+  errors[1].innerText = "Hmm... that doesn’t look like a real email 📬";
+  isValid = false;
+}
+
+if (users.some(u => u.email === email)) {
+  inputs[1].style.border = "2px solid red";
+  errors[1].innerText = "That email’s already taken. Try something else 🚫";
+  isValid = false;
+}
+
+if (!passwordRegex.test(password)) {
+  inputs[2].style.border = "2px solid red";
+  errors[2].innerText = "Weak password alert! Make it stronger 💪";
+  isValid = false;
+}
+
+if (password !== re_Password || re_Password == "") {
+  inputs[3].style.border = "2px solid red";
+  errors[3].innerText = "Passwords don’t match. Double-check ’em! 🔁";
+  isValid = false;
+}
   if (isValid) {
     var user = { "name": userName, "email": email, "password": password };
     users.push(user);
