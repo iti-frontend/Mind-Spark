@@ -1,5 +1,5 @@
 
-console.log(window.localStorage);
+console.log(window.sessionStorage);
 const inputs = document.querySelectorAll("input");
 const errors = document.querySelectorAll(".error");
 let isValid = true;
